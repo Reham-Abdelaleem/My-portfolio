@@ -1,32 +1,32 @@
 // ── PROJECTS DATA ──
 const projects = [
+  // {
+  //   num: '01',
+  //   featured: true,
+  //   featuredBadge: '⭐ Graduation Project',
+  //   visual: {
+  //     type: 'gradient',
+  //     bg: 'linear-gradient(135deg,#dde3ff,#eef1ff)',
+  //     icon: '🤖'
+  //   },
+  //   tech: ['React.js', 'Next.js', 'REST APIs'],
+  //   tags: [{ label: 'Graduation Project', accent: true }, { label: 'A+ Grade' }],
+  //   title: 'LamaPBX',
+  //   desc: 'AI-powered platform integrating chatbot, knowledge base, and model providers for real-time intelligent customer interactions.',
+  //   results: [
+  //     { icon: 'fa-star', text: 'Grade A+ Excellent' },
+  //     { icon: 'fa-check-circle', text: 'Full Platform Delivered' }
+  //   ],
+  //   liveUrl: null,
+  //   githubUrl: null
+  // },
   {
     num: '01',
-    featured: true,
-    featuredBadge: '⭐ Graduation Project',
-    visual: {
-      type: 'gradient',
-      bg: 'linear-gradient(135deg,#dde3ff,#eef1ff)',
-      icon: '🤖'
-    },
-    tech: ['React.js', 'Next.js', 'REST APIs'],
-    tags: [{ label: 'Graduation Project', accent: true }, { label: 'A+ Grade' }],
-    title: 'LamaPBX',
-    desc: 'AI-powered platform integrating chatbot, knowledge base, and model providers for real-time intelligent customer interactions.',
-    results: [
-      { icon: 'fa-star', text: 'Grade A+ Excellent' },
-      { icon: 'fa-check-circle', text: 'Full Platform Delivered' }
-    ],
-    liveUrl: null,
-    githubUrl: null
-  },
-  {
-    num: '02',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=700&q=80',
+      img: 'images/Leon-Creative Digital Agency.jpg',
       alt: 'Leon Agency'
     },
     tech: ['HTML5', 'CSS3', 'Bootstrap 5'],
@@ -37,16 +37,16 @@ const projects = [
       { icon: 'fa-check-circle', text: 'Fully Responsive' },
       { icon: 'fa-check-circle', text: 'Clean Modern UI' }
     ],
-    liveUrl: 'https://lnkd.in/dPqDtA8d',
-    githubUrl: 'https://lnkd.in/dNuZY2_M'
+    liveUrl: 'https://leon-digital-agency-template.netlify.app/',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/Leon-Digital-Agency-Template'
   },
   {
-    num: '03',
+    num: '02',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=700&q=80',
+      img: 'images/Elevvo-task1-Collapsible-Sidebar.jpg',
       alt: 'ShopZone'
     },
     tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
@@ -57,16 +57,16 @@ const projects = [
       { icon: 'fa-check-circle', text: 'Animated Sidebar' },
       { icon: 'fa-check-circle', text: 'Mobile Responsive' }
     ],
-    liveUrl: 'https://lnkd.in/dPqDtA8d',
-    githubUrl: 'https://lnkd.in/dNuZY2_M'
+    liveUrl: 'https://modern-collapsible-sidebar.netlify.app/',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/Elvevo-task1-Collapsible-Sidebar'
   },
   {
-    num: '04',
+    num: '03',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=700&q=80',
+      img: 'images/Elevvo-task2-Contact-Form.jpg',
       alt: 'Contact Form'
     },
     tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
@@ -77,16 +77,16 @@ const projects = [
       { icon: 'fa-check-circle', text: 'Real-time Validation' },
       { icon: 'fa-check-circle', text: 'Animated Feedback' }
     ],
-    liveUrl: 'https://lnkd.in/dPqDtA8d',
-    githubUrl: 'https://lnkd.in/dNuZY2_M'
+    liveUrl: 'https://modern-contact-form-validation.netlify.app/',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/Elvevo-task2-Contact-Form'
   },
   {
-    num: '05',
+    num: '04',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=700&q=80',
+      img: 'images/Elevvo-task3-TaskFlow.jpg',
       alt: 'TaskFlow'
     },
     tech: ['HTML5', 'CSS3', 'JavaScript'],
@@ -97,16 +97,16 @@ const projects = [
       { icon: 'fa-check-circle', text: 'Scroll Animations' },
       { icon: 'fa-check-circle', text: 'Fully Responsive' }
     ],
-    liveUrl: 'https://lnkd.in/dPqDtA8d',
-    githubUrl: 'https://lnkd.in/dNuZY2_M'
+    liveUrl: 'https://taskflow-app-showcase.netlify.app/',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/Elevvo-Task3-TaskFlow'
   },
   {
-    num: '06',
+    num: '05',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=700&q=80',
+      img: 'images/Elevvo-task4-PersonalBlog.jpg',
       alt: 'Personal Blog'
     },
     tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
@@ -117,15 +117,15 @@ const projects = [
       { icon: 'fa-check-circle', text: 'Live Search & Filter' },
       { icon: 'fa-check-circle', text: 'Pagination' }
     ],
-    liveUrl: 'https://lnkd.in/dPqDtA8d',
-    githubUrl: 'https://lnkd.in/dNuZY2_M'
+    liveUrl: 'https://dynamic-personal-blog.netlify.app/',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/Elevvo-Task4-PersonalBlog'
   }
 ];
 
+// ── RENDER PROJECTS ──
 function renderProjects() {
   const carousel = document.getElementById('projectsCarousel');
   carousel.innerHTML = projects.map(p => {
-    // Visual block
     let visualInner = '';
     if (p.visual.type === 'gradient') {
       visualInner = `<div class="project-visual-bg"><div class="project-visual-icon">${p.visual.icon}</div></div>`;
@@ -139,7 +139,7 @@ function renderProjects() {
 
     const actions = (p.liveUrl || p.githubUrl) ? `
       <div class="overlay-actions">
-        ${p.liveUrl ? `<a href="${p.liveUrl}" target="_blank" class="overlay-btn primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>` : ''}
+        ${p.liveUrl ? `<a href="${p.liveUrl}"   target="_blank" class="overlay-btn primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>` : ''}
         ${p.githubUrl ? `<a href="${p.githubUrl}" target="_blank" class="overlay-btn ghost"><i class="fab fa-github"></i> GitHub</a>` : ''}
       </div>` : '';
 
@@ -164,10 +164,9 @@ function renderProjects() {
   }).join('');
 }
 
-// ── RENDER PROJECTS IMMEDIATELY ──
 renderProjects();
 
-// ── PURE JS CAROUSEL ──
+// ── PURE JS CAROUSEL (with Drag) ──
 (function initCarousel() {
   const track = document.getElementById('projectsCarousel');
   const cards = track.querySelectorAll('.project-card');
@@ -175,7 +174,7 @@ renderProjects();
   let current = 0;
 
   function getVisible() {
-    if (window.innerWidth >= 1024) return 3;
+    // if (window.innerWidth >= 1024) return 3;
     if (window.innerWidth >= 640) return 2;
     return 1;
   }
@@ -187,21 +186,108 @@ renderProjects();
   function goTo(index) {
     const max = totalCards - getVisible();
     current = Math.max(0, Math.min(index, max));
+    track.style.transition = 'transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
     track.style.transform = `translateX(-${current * getCardWidth()}px)`;
   }
 
+  // ── AUTOPLAY ──
   let autoplay = setInterval(() => {
     current = (current + 1 > totalCards - getVisible()) ? 0 : current + 1;
     goTo(current);
   }, 3500);
 
-  track.closest('.projects-carousel').addEventListener('mouseenter', () => clearInterval(autoplay));
-  track.closest('.projects-carousel').addEventListener('mouseleave', () => {
+  function startAutoplay() {
     autoplay = setInterval(() => {
       current = (current + 1 > totalCards - getVisible()) ? 0 : current + 1;
       goTo(current);
     }, 3500);
+  }
+
+  function stopAutoplay() {
+    clearInterval(autoplay);
+  }
+
+  const carouselWrap = track.closest('.projects-carousel');
+  carouselWrap.addEventListener('mouseenter', stopAutoplay);
+  carouselWrap.addEventListener('mouseleave', startAutoplay);
+
+  // ── DRAG (Mouse) ──
+  let isDragging = false;
+  let dragStartX = 0;
+  let dragCurrentX = 0;
+  let baseOffset = 0;
+  const DRAG_THRESHOLD = 5; // px — below this, treat as a click
+  let didDrag = false;
+
+  function getBaseOffset() {
+    return current * getCardWidth();
+  }
+
+  track.addEventListener('mousedown', e => {
+    isDragging = true;
+    didDrag = false;
+    dragStartX = e.clientX;
+    baseOffset = getBaseOffset();
+    track.style.transition = 'none';
+    track.style.cursor = 'grabbing';
+    stopAutoplay();
   });
+
+  window.addEventListener('mousemove', e => {
+    if (!isDragging) return;
+    dragCurrentX = e.clientX;
+    const diff = dragCurrentX - dragStartX;
+    if (Math.abs(diff) > DRAG_THRESHOLD) didDrag = true;
+    track.style.transform = `translateX(${-baseOffset + diff}px)`;
+  });
+
+  window.addEventListener('mouseup', e => {
+    if (!isDragging) return;
+    isDragging = false;
+    track.style.cursor = '';
+    const diff = e.clientX - dragStartX;
+
+    if (Math.abs(diff) > DRAG_THRESHOLD) {
+      if (diff < -60) goTo(current + 1);
+      else if (diff > 60) goTo(current - 1);
+      else goTo(current);
+    } else {
+      goTo(current);
+    }
+    startAutoplay();
+  });
+
+  // Prevent click on links/buttons after a drag
+  track.addEventListener('click', e => {
+    if (didDrag) e.preventDefault();
+  }, true);
+
+  // ── DRAG (Touch) ──
+  let touchStartX = 0;
+  let touchBaseOffset = 0;
+
+  track.addEventListener('touchstart', e => {
+    touchStartX = e.touches[0].clientX;
+    touchBaseOffset = getBaseOffset();
+    track.style.transition = 'none';
+    stopAutoplay();
+  }, { passive: true });
+
+  track.addEventListener('touchmove', e => {
+    const diff = e.touches[0].clientX - touchStartX;
+    track.style.transform = `translateX(${-touchBaseOffset + diff}px)`;
+  }, { passive: true });
+
+  track.addEventListener('touchend', e => {
+    const diff = e.changedTouches[0].clientX - touchStartX;
+    if (diff < -50) goTo(current + 1);
+    else if (diff > 50) goTo(current - 1);
+    else goTo(current);
+    startAutoplay();
+  });
+
+  // ── CURSOR STYLE ──
+  track.style.cursor = 'grab';
 
   window.addEventListener('resize', () => goTo(current));
 })();
@@ -210,7 +296,10 @@ renderProjects();
 document.body.classList.add('js-loaded');
 const revealObs = new IntersectionObserver(entries => {
   entries.forEach((e, i) => {
-    if (e.isIntersecting) { e.target.style.transitionDelay = (i % 4) * .08 + 's'; e.target.classList.add('visible'); }
+    if (e.isIntersecting) {
+      e.target.style.transitionDelay = (i % 4) * .08 + 's';
+      e.target.classList.add('visible');
+    }
   });
 }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
 document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
@@ -219,12 +308,26 @@ document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
 const cursor = document.getElementById('cursor');
 const ring = document.getElementById('cursorRing');
 let mx = 0, my = 0, rx = 0, ry = 0;
+
 if (window.matchMedia('(pointer: fine)').matches) {
   document.body.style.cursor = 'none';
   cursor.style.display = 'block';
   ring.style.display = 'block';
-  document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; cursor.style.left = mx + 'px'; cursor.style.top = my + 'px'; });
-  (function animRing() { rx += (mx - rx) * .12; ry += (my - ry) * .12; ring.style.left = rx + 'px'; ring.style.top = ry + 'px'; requestAnimationFrame(animRing); })();
+
+  document.addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    cursor.style.left = mx + 'px';
+    cursor.style.top = my + 'px';
+  });
+
+  (function animRing() {
+    rx += (mx - rx) * .12;
+    ry += (my - ry) * .12;
+    ring.style.left = rx + 'px';
+    ring.style.top = ry + 'px';
+    requestAnimationFrame(animRing);
+  })();
+
   document.querySelectorAll('a,button,input,textarea,.skill-pill,.service-card,.project-card,.why-card').forEach(el => {
     el.style.cursor = 'none';
     el.addEventListener('mouseenter', () => { cursor.style.transform = 'translate(-50%,-50%) scale(2)'; ring.style.opacity = '0'; });
@@ -234,22 +337,33 @@ if (window.matchMedia('(pointer: fine)').matches) {
 
 // ── HAMBURGER ──
 document.getElementById('hamburger').addEventListener('click', () => {
-  document.getElementById('navLinksMobile').classList.toggle('open');
+  document.getElementById('navLinks').classList.toggle('open');
 });
 
-// ── SCROLL TOP + NAV SHRINK ──
+// ── CLOSE MENU ON LINK CLICK ──
+document.querySelectorAll('#navLinks a').forEach(a => {
+  a.addEventListener('click', () => {
+    document.getElementById('navLinks').classList.remove('open');
+  });
+});
+
+// ── SCROLL TOP + NAV SHRINK + ACTIVE LINK ──
 const scrollTopBtn = document.getElementById('scrollTop');
 const navbar = document.getElementById('navbar');
+
 window.addEventListener('scroll', () => {
   scrollTopBtn.classList.toggle('show', window.scrollY > 400);
-  navbar.style.padding = window.scrollY > 80 ? '10px 20px' : '';
-  // Active nav highlight
+  navbar.style.padding = window.scrollY > 80 ? '10px 60px' : '18px 60px';
+
   let cur = '';
-  document.querySelectorAll('section[id]').forEach(s => { if (window.scrollY >= s.offsetTop - 120) cur = s.id; });
-  document.querySelectorAll('.nav-links a, .nav-links-mobile a').forEach(a => {
+  document.querySelectorAll('section[id]').forEach(s => {
+    if (window.scrollY >= s.offsetTop - 120) cur = s.id;
+  });
+  document.querySelectorAll('.nav-links a').forEach(a => {
     a.style.color = a.getAttribute('href') === '#' + cur ? 'var(--blue)' : '';
   });
 });
+
 scrollTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
 // ── CONTACT FORM ──
@@ -259,17 +373,15 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
   const email = document.getElementById('femail').value;
   const message = document.getElementById('fmessage').value;
   const msg = document.getElementById('formMsg');
-  if (!name || !email || !message) { msg.textContent = 'Please fill in all required fields.'; msg.className = 'form-msg err'; return; }
-  msg.textContent = 'Message sent successfully! I\'ll get back to you soon.';
+
+  if (!name || !email || !message) {
+    msg.textContent = 'Please fill in all required fields.';
+    msg.className = 'form-msg err';
+    return;
+  }
+
+  msg.textContent = "Message sent successfully! I'll get back to you soon.";
   msg.className = 'form-msg ok';
   this.reset();
   setTimeout(() => { msg.className = 'form-msg'; }, 5000);
 });
-
-// ── CLOSE MOBILE MENU ON LINK CLICK ──
-document.querySelectorAll('#navLinksMobile a').forEach(a => {
-  a.addEventListener('click', () => {
-    document.getElementById('navLinksMobile').classList.remove('open');
-  });
-});
-
