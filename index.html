@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reham Abd-el Aleem — Front-End Developer</title>
+  <!-- Font Awwesome Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <!-- Main Template CSS File -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="navbar" class="d-flex align-items-center justify-content-between">
+    <div class="nav-logo">Reham<span>.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="container-fluid px-0 w-100">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 hero-left">
+          <div class="hero-tag">Available for Work</div>
+          <h1 class="hero-name">Reham<br>Abd-el Aleem<em>Front-End Dev.</em></h1>
+          <p class="hero-tagline">Building responsive, user-friendly web experiences with clean code and creative
+            design. Based in Cairo, Egypt.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary-custom">
+              <i class="fa-solid fa-arrow-right"></i> View My Work</a>
+            <a href="#contact" class="btn-outline-custom">
+              <i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
+          </div>
+          <div class="hero-socials">
+            <a href="mailto:rehamabdelalem08@email.com" title="Email">
+              <i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/reham-abd-el-aleem-2a0572248/" target="_blank"
+              rel="noopener noreferrer" title="LinkedIn">
+              <i class="fa-brands fa-square-linkedin"></i></a>
+            <a href="https://github.com/Reham-Abdelaleem" target="_blank" rel="noopener noreferrer" title="GitHub">
+              <i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-right-wrap">
+          <div class="hero-right-container position-relative">
+            <div class="hero-visual">
+              <div class="hero-visual-inner">
+                <img src="images/profile.jpg" alt="Reham Abd El-Aleem">
+                <div class="hero-visual-text">Reham Abd El-Aleem<small>Front-End Developer · Cairo, Egypt</small></div>
+              </div>
+            </div>
+            <div class="floating-card card-top">
+              <div class="card-label">Graduation Project</div>
+              <div class="card-value">LamaPBX <span class="cbadge">A+</span></div>
+            </div>
+            <div class="floating-card card-bottom">
+              <div class="card-label">Status</div>
+              <div class="card-value">Open to Work <span class="cbadge">Remote</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="section-label reveal">About Me</div>
+    <h2 class="section-title reveal">Passionate about<br><em class="italic-text">building the web.</em></h2>
+    <div class="row g-5 mt-2">
+      <div class="col-lg-6 about-bio reveal">
+        <p class="about-text">Hi, I'm <strong>Reham Abd
+            El-Aleem</strong> — a passionate web developer specializing in building <strong>responsive, user-focused web
+            experiences</strong>.</p>
+        <p class="about-text">I care deeply about
+          <strong>clean code</strong>, intuitive interfaces, and scalable solutions. My goal: create products that
+          <strong>look great, work fast, and solve real problems</strong>.
+        </p>
+        <p class="about-text about-text-last">Currently expanding my
+          skills in <strong>React</strong> and <strong>Next.js</strong>, recently graduated from <strong>Helwan
+            University</strong> with an <strong>A+ graduation project</strong>.</p>
+        <div class="row g-3">
+          <div class="col-4">
+            <div class="stat-box"><span class="stat-num">A+</span>
+              <div class="stat-lbl">Graduation Project</div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="stat-box"><span class="stat-num">5+</span>
+              <div class="stat-lbl">Years of Study</div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="stat-box"><span class="stat-num">10+</span>
+              <div class="stat-lbl">Technologies</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal">
+        <div class="about-summary">
+          <div class="summary-title">What Drives Me</div>
+          <div class="summary-item">
+            <div class="summary-icon">
+              <i class="fa-solid fa-wand-magic"></i>
+            </div>
+            <div class="summary-text">
+              <h4>Intuitive Experiences</h4>
+              <p>Creating interfaces that feel natural and delightful for every user.</p>
+            </div>
+          </div>
+          <div class="summary-item">
+            <div class="summary-icon"><i class="fa-solid fa-code"></i></div>
+            <div class="summary-text">
+              <h4>Clean Code</h4>
+              <p>Writing maintainable, readable code that stands the test of time.</p>
+            </div>
+          </div>
+          <div class="summary-item">
+            <div class="summary-icon">
+              <i class="fa-solid fa-rocket"></i>
+            </div>
+            <div class="summary-text">
+              <h4>Continuous Growth</h4>
+              <p>Always learning new technologies and best practices in web development.</p>
+            </div>
+          </div>
+          <div class="summary-item">
+            <div class="summary-icon">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <div class="summary-text">
+              <h4>Problem Solving</h4>
+              <p>Turning complex challenges into elegant technical solutions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section id="education">
+    <div class="section-label reveal">Education & Credentials</div>
+    <h2 class="section-title reveal">Academic<br>Background</h2>
+    <div class="row g-4 mt-2">
+      <div class="col-lg-6 reveal">
+        <div class="edu-main">
+          <div class="edu-badge">2020 — 2025</div>
+          <h3 class="edu-degree">B.Sc. Communication &amp; Electronics Engineering</h3>
+          <p class="edu-uni">🏛 Helwan University, Cairo, Egypt</p>
+          <p class="edu-period">Sept 2020 – July 2025 · Grade: Good</p>
+          <div class="edu-project">
+            <div class="edu-project-label">Graduation Project</div>
+            <div class="edu-project-name">LamaPBX — AI-Native Platform for Intelligent Customer Engagement</div>
+            <span class="grade-badge">⭐ Grade: A+ Excellent</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal">
+        <div class="cert-card h-100">
+          <div class="cert-icon">📜</div>
+          <div class="cert-name">Database Fundamentals</div>
+          <div class="cert-org">Mahara-Tech</div>
+          <div class="cert-tags">
+            <span class="tag">ERD Modeling</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Normalization</span>
+            <span class="tag">Relational Schema</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section id="experience">
+    <div class="section-label reveal">Work Experience</div>
+    <h2 class="section-title reveal">Where I've<br><em class="italic-text">Worked</em></h2>
+    <p class="section-desc reveal">Hands-on experience that shaped my skills and professional approach to web
+      development.</p>
+    <div class="exp-timeline mt-5">
+      <div class="d-flex gap-4 reveal">
+        <div class="exp-dot">🏢</div>
+        <div class="exp-body flex-grow-1">
+          <div class="d-flex justify-content-between align-items-start flex-wrap gap-2 mb-2">
+            <div class="exp-title">Front-End Developer Intern</div>
+            <div class="exp-period">Dec 2025 – Present · 3 mos</div>
+          </div>
+          <div class="exp-company mb-1">Creativa Innovation Hubs · Internship</div>
+          <div class="exp-location mb-3">
+            <i class="fa-solid fa-location-dot"></i> Cairo, Egypt · On-site &nbsp;·&nbsp;
+            <i class="fa-solid fa-building"></i> Under NTI
+          </div>
+          <div class="d-flex flex-column gap-2 mb-3">
+            <div class="exp-bullet">Front-End Development internship at Creativa Hub under the National
+              Telecommunication Institute (NTI).</div>
+            <div class="exp-bullet">Developed responsive and mobile-first web interfaces using HTML, CSS, Bootstrap, and
+              JavaScript.</div>
+            <div class="exp-bullet">Utilized Bootstrap grid system and components to build clean, structured layouts.
+            </div>
+            <div class="exp-bullet">Worked on practical tasks and mini projects simulating real-world web development
+              scenarios.</div>
+            <div class="exp-bullet">Enhanced skills in UI design, responsive layouts, and clean, maintainable code.
+            </div>
+          </div>
+          <div class="d-flex flex-wrap gap-2">
+            <span class="exp-tag">HTML5</span>
+            <span class="exp-tag">CSS3</span>
+            <span class="exp-tag">Bootstrap</span>
+            <span class="exp-tag">JavaScript</span>
+            <span class="exp-tag">Figma</span>
+            <span class="exp-tag">Responsive Design</span>
+            <span class="exp-tag">UI Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills">
+    <div class="section-label reveal">Skills & Tools</div>
+    <h2 class="section-title reveal">Technologies<br>I Work With</h2>
+    <div class="row g-5 mt-2">
+      <div class="col-lg-3 skills-intro reveal">
+        <p>I work across the full front-end spectrum —
+          from pixel-perfect HTML/CSS to dynamic React applications.</p>
+        <p>Currently deepening expertise in <strong>React</strong> and
+          <strong>Next.js</strong> for production-grade web applications.
+        </p>
+      </div>
+      <div class="col-lg-9 reveal">
+        <!-- Web Development -->
+        <div class="mb-4">
+          <div class="skill-cat-title">
+            <i class="fa-solid fa-code"></i> Web Development
+          </div>
+          <div>
+            <span class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            <span class="skill-pill"><i class="fa-brands fa-square-js"></i> JavaScript</span>
+            <span class="skill-pill"><i class="fa-brands fa-react"></i> React.js</span>
+            <span class="skill-pill"><i class="fa-solid fa-server"></i> Next.js</span>
+            <span class="skill-pill"><i class="fa-brands fa-tailwind-css"></i> Tailwind CSS</span>
+            <span class="skill-pill"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+            <span class="skill-pill"><i class="fa-solid fa-mobile-screen-button"></i> Responsive Design</span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="mb-4">
+          <div class="skill-cat-title">
+            <i class="fa-solid fa-screwdriver-wrench"></i> Tools & Technologies
+          </div>
+          <div>
+            <span class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</span>
+            <span class="skill-pill"><i class="fa-brands fa-figma"></i> Figma</span>
+            <span class="skill-pill"><i class="fa-solid fa-file-lines"></i> MS Office</span>
+          </div>
+        </div>
+
+        <!-- Database -->
+        <div class="mb-4">
+          <div class="skill-cat-title">
+            <i class="fa-solid fa-database"></i> Database
+          </div>
+          <div>
+            <span class="skill-pill"><i class="fa-solid fa-database"></i> SQL</span>
+            <span class="skill-pill"><i class="fa-solid fa-layer-group"></i> Database Design</span>
+            <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> ERD Modeling</span>
+            <span class="skill-pill"><i class="fa-solid fa-filter"></i> Normalization</span>
+          </div>
+        </div>
+
+        <!-- Computer Science -->
+        <div>
+          <div class="skill-cat-title">
+            <i class="fa-solid fa-brain"></i> Computer Science
+          </div>
+          <div>
+            <span class="skill-pill"><i class="fa-solid fa-code"></i> C++</span>
+            <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> Data Structures</span>
+            <span class="skill-pill"><i class="fa-solid fa-sitemap"></i> Algorithms</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="d-flex justify-content-between align-items-end flex-wrap gap-3 mb-5">
+      <div>
+        <div class="section-label reveal">Featured Work</div>
+        <h2 class="section-title reveal">Selected Projects</h2>
+      </div>
+      <a href="https://github.com/Reham-Abdelaleem" target="_blank" rel="noopener noreferrer"
+        class="btn-outline-custom reveal">
+        <i class="fa-brands fa-github"></i> View All on GitHub</a>
+    </div>
+    <div class="projects-carousel">
+      <div class="carousel-track" id="projectsCarousel"></div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ── -->
+  <section id="services">
+    <div class="section-label reveal">What I Do</div>
+    <h2 class="section-title reveal">Services I Offer</h2>
+    <p class="section-desc reveal">Clear, focused services tailored to help clients build fast, modern, and
+      user-friendly web experiences.</p>
+    <div class="row g-4 mt-2">
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <div class="service-name">Responsive Web Development</div>
+          <p class="service-desc">Modern, mobile-first websites that look and work perfectly on every screen size and
+            device.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-brands fa-react"></i>
+          </div>
+          <div class="service-name">React & Next.js Apps</div>
+          <p class="service-desc">Dynamic, fast-loading single-page and server-side applications using cutting-edge
+            frameworks.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-palette"></i>
+          </div>
+          <div class="service-name">UI/UX Implementation</div>
+          <p class="service-desc">Transforming Figma/design files into pixel-perfect, interactive and accessible
+            interfaces.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-rocket"></i>
+          </div>
+          <div class="service-name">Frontend Performance</div>
+          <p class="service-desc">Optimizing web apps for speed, Core Web Vitals, and smooth user experience at scale.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <div class="service-name">Database Design</div>
+          <p class="service-desc">Designing clean relational database schemas with ERD modeling, SQL, and normalization.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-wrench"></i>
+          </div>
+          <div class="service-name">Website Maintenance</div>
+          <p class="service-desc">Keeping your website updated, bug-free, secure, and running at peak performance.</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5 reveal">
+      <p class="services-cta-text">Let's work together to bring your
+        ideas to life!</p>
+      <a href="#contact" class="btn-white-custom">
+        <i class="fa-solid fa-arrow-right"></i> Start a Project</a>
+    </div>
+  </section>
+
+  <!-- ── WHY CHOOSE ME ── -->
+  <section id="why">
+    <div class="section-label reveal">Why Work With Me</div>
+    <h2 class="section-title reveal">What Makes Me<br><em class="italic-text">Different</em></h2>
+    <p class="section-desc reveal">A combination of technical skills, professional habits, and a genuine passion for
+      building great web experiences.</p>
+    <div class="row g-4 mt-2">
+      <div class="col-sm-6 col-lg-3 reveal">
+        <div class="why-card"><span class="why-emoji">💪</span>
+          <div class="why-title">Strong Technical Foundation</div>
+          <p class="why-desc">Solid understanding of web development fundamentals and modern frameworks like React and
+            Next.js.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 reveal">
+        <div class="why-card"><span class="why-emoji">🎯</span>
+          <div class="why-title">Detail-Oriented</div>
+          <p class="why-desc">Committed to writing clean, maintainable code and creating polished user experiences down
+            to the pixel.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 reveal">
+        <div class="why-card"><span class="why-emoji">📚</span>
+          <div class="why-title">Continuous Learner</div>
+          <p class="why-desc">Always staying updated with the latest web technologies, best practices, and industry
+            trends.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 reveal">
+        <div class="why-card"><span class="why-emoji">🚀</span>
+          <div class="why-title">Problem Solver</div>
+          <p class="why-desc">Strong analytical skills with the ability to tackle complex challenges and find elegant
+            solutions.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 reveal">
+        <div class="why-card"><span class="why-emoji">⏰</span>
+          <div class="why-title">Reliable & Professional</div>
+          <p class="why-desc">Meeting deadlines and maintaining clear, consistent communication throughout every
+            project.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 reveal">
+        <div class="why-card"><span class="why-emoji">🤝</span>
+          <div class="why-title">Team Player</div>
+          <p class="why-desc">Proven experience working collaboratively in team environments with positive results.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 reveal">
+        <div class="why-card"><span class="why-emoji">💡</span>
+          <div class="why-title">Creative Thinker</div>
+          <p class="why-desc">Bringing fresh ideas and innovative solutions to every project I work on.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 reveal">
+        <div class="why-card why-card-highlight"><span class="why-emoji">✨</span>
+          <div class="why-title">Immediate Availability</div>
+          <p class="why-desc">Available to start right away — Remote, Hybrid, or On-site.</p>
+        </div>
+      </div>
+    </div>
+    <div class="why-cta-box reveal">
+      <div class="why-cta-text">
+        <h3>Ready to build something great?</h3>
+        <p>Let's turn your ideas into a polished, high-performing web experience.</p>
+      </div>
+      <a href="#contact" class="btn-white-custom">
+        <i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="section-label reveal">Get In Touch</div>
+    <h2 class="section-title reveal">Let's Work<br>Together</h2>
+    <div class="row g-5 mt-2">
+      <div class="col-lg-6 reveal">
+        <p class="contact-intro">Ready to start your next project? I'm currently available for freelance work and
+          full-time positions. Reach out and let's create something great together.</p>
+        <div class="d-flex flex-column gap-3 mb-4">
+          <a href="mailto:rehamabdelalem08@email.com" class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div>
+              <div class="contact-item-text">Email</div>
+              <div class="contact-item-value">rehamabdelalem08@email.com</div>
+            </div>
+          </a>
+          <a href="tel:+201157168481" class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+              <div class="contact-item-text">Phone</div>
+              <div class="contact-item-value">+20 115 716 8481</div>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/reham-abd-el-aleem-2a0572248/" target="_blank" rel="noopener noreferrer"
+            class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fa-brands fa-square-linkedin"></i>
+            </div>
+            <div>
+              <div class="contact-item-text">LinkedIn</div>
+              <div class="contact-item-value">reham-abd-el-aleem</div>
+            </div>
+          </a>
+          <a href="https://github.com/Reham-Abdelaleem" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div>
+              <div class="contact-item-text">GitHub</div>
+              <div class="contact-item-value">Reham-Abdelaleem</div>
+            </div>
+          </a>
+          <div class="contact-item contact-item-no-cursor">
+            <div class="contact-item-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <div class="contact-item-text">Location</div>
+              <div class="contact-item-value">Cairo, Egypt</div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-avail">
+          <span class="avail-dot"></span>
+          <span class="avail-text"><strong>Available Immediately</strong> · Remote, Hybrid, or On-site</span>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal">
+        <div class="contact-form-box">
+          <div class="form-title">Send a Message</div>
+          <form id="contactForm">
+            <div class="row g-3 mb-3">
+              <div class="col-sm-6">
+                <label class="form-label-custom">Your Name</label>
+                <input type="text" class="form-input-custom" id="fname" placeholder="Ahmed Mohamed" required>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label-custom">Email Address</label>
+                <input type="email" class="form-input-custom" id="femail" placeholder="ahmed@example.com" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label-custom">Subject</label>
+              <input type="text" class="form-input-custom" id="fsubject" placeholder="Project Collaboration">
+            </div>
+            <div class="mb-3">
+              <label class="form-label-custom">Message</label>
+              <textarea class="form-input-custom" id="fmessage" placeholder="Tell me about your project..."
+                required></textarea>
+            </div>
+            <button type="submit" class="form-submit">
+              <i class="fa-solid fa-paper-plane"></i> Send Message</button>
+            <div class="form-msg" id="formMsg"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="d-flex align-items-center justify-content-between flex-wrap gap-3">
+    <div class="footer-logo">Reham<span class="footer-dot">.</span></div>
+    <div class="footer-copy">© 2025 Reham Abd El-Aleem · Turning Ideas Into Interactive Experiences</div>
+    <div class="footer-socials">
+      <a href="mailto:rehamabd@email.com" title="Email">
+        <i class="fa-solid fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/reham-abd-el-aleem-2a0572248/" target="_blank" rel="noopener noreferrer"
+        title="LinkedIn">
+        <i class="fa-brands fa-square-linkedin"></i></a>
+      <a href="https://github.com/Reham-Abdelaleem" target="_blank" rel="noopener noreferrer" title="GitHub">
+        <i class="fa-brands fa-github"></i></a>
+    </div>
+  </footer>
+
+  <button id="scrollTop" type="button" title="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
