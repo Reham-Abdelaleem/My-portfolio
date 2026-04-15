@@ -14,8 +14,8 @@ const projects = [
   //   title: 'LamaPBX',
   //   desc: 'AI-powered platform integrating chatbot, knowledge base, and model providers for real-time intelligent customer interactions.',
   //   results: [
-  //     { icon: 'fa-star', text: 'Grade A+ Excellent' },
-  //     { icon: 'fa-check-circle', text: 'Full Platform Delivered' }
+  //     { icon: 'fa-solid fa-star', text: 'Grade A+ Excellent' },
+  //     { icon: 'fa-solid fa-circle-check', text: 'Full Platform Delivered' }
   //   ],
   //   liveUrl: null,
   //   githubUrl: null
@@ -34,8 +34,8 @@ const projects = [
     title: 'Leon — Digital Agency',
     desc: 'Modern landing page for a creative digital agency. Fully responsive across all devices with clean Bootstrap 5 layout and custom CSS.',
     results: [
-      { icon: 'fa-check-circle', text: 'Fully Responsive' },
-      { icon: 'fa-check-circle', text: 'Clean Modern UI' }
+      { icon: 'fa-solid fa-circle-check', text: 'Fully Responsive' },
+      { icon: 'fa-solid fa-circle-check', text: 'Clean Modern UI' }
     ],
     liveUrl: 'https://leon-digital-agency-template.netlify.app/',
     githubUrl: 'https://github.com/Reham-Abdelaleem/Leon-Digital-Agency-Template'
@@ -54,8 +54,8 @@ const projects = [
     title: 'ShopZone',
     desc: 'Premium shopping dashboard with an animated collapsible sidebar. Fully responsive — collapses to icons on desktop and slides in as a drawer on mobile.',
     results: [
-      { icon: 'fa-check-circle', text: 'Animated Sidebar' },
-      { icon: 'fa-check-circle', text: 'Mobile Responsive' }
+      { icon: 'fa-solid fa-circle-check', text: 'Animated Sidebar' },
+      { icon: 'fa-solid fa-circle-check', text: 'Mobile Responsive' }
     ],
     liveUrl: 'https://modern-collapsible-sidebar.netlify.app/',
     githubUrl: 'https://github.com/Reham-Abdelaleem/Elvevo-task1-Collapsible-Sidebar'
@@ -74,8 +74,8 @@ const projects = [
     title: 'Contact Form',
     desc: 'Elegant contact form with real-time validation, character counter, error/success states, and smooth animations. Fully responsive.',
     results: [
-      { icon: 'fa-check-circle', text: 'Real-time Validation' },
-      { icon: 'fa-check-circle', text: 'Animated Feedback' }
+      { icon: 'fa-solid fa-circle-check', text: 'Real-time Validation' },
+      { icon: 'fa-solid fa-circle-check', text: 'Animated Feedback' }
     ],
     liveUrl: 'https://modern-contact-form-validation.netlify.app/',
     githubUrl: 'https://github.com/Reham-Abdelaleem/Elvevo-task2-Contact-Form'
@@ -94,8 +94,8 @@ const projects = [
     title: 'TaskFlow',
     desc: 'Modern SaaS landing page with hero, features, reviews, and pricing sections. Includes scroll animations, counter effects, and ripple buttons.',
     results: [
-      { icon: 'fa-check-circle', text: 'Scroll Animations' },
-      { icon: 'fa-check-circle', text: 'Fully Responsive' }
+      { icon: 'fa-solid fa-circle-check', text: 'Scroll Animations' },
+      { icon: 'fa-solid fa-circle-check', text: 'Fully Responsive' }
     ],
     liveUrl: 'https://taskflow-app-showcase.netlify.app/',
     githubUrl: 'https://github.com/Reham-Abdelaleem/Elevvo-Task3-TaskFlow'
@@ -114,8 +114,8 @@ const projects = [
     title: 'Personal Blog',
     desc: 'Blog homepage with dynamic post cards, category filters, live search with debounce, and pagination. Fully responsive with smooth animations.',
     results: [
-      { icon: 'fa-check-circle', text: 'Live Search & Filter' },
-      { icon: 'fa-check-circle', text: 'Pagination' }
+      { icon: 'fa-solid fa-circle-check', text: 'Live Search & Filter' },
+      { icon: 'fa-solid fa-circle-check', text: 'Pagination' }
     ],
     liveUrl: 'https://dynamic-personal-blog.netlify.app/',
     githubUrl: 'https://github.com/Reham-Abdelaleem/Elevvo-Task4-PersonalBlog'
@@ -139,8 +139,8 @@ function renderProjects() {
 
     const actions = (p.liveUrl || p.githubUrl) ? `
       <div class="overlay-actions">
-        ${p.liveUrl ? `<a href="${p.liveUrl}"   target="_blank" class="overlay-btn primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>` : ''}
-        ${p.githubUrl ? `<a href="${p.githubUrl}" target="_blank" class="overlay-btn ghost"><i class="fab fa-github"></i> GitHub</a>` : ''}
+        ${p.liveUrl ? `<a href="${p.liveUrl}"   target="_blank" class="overlay-btn primary"><i class="fa-solid fa-link"></i> Live Demo</a>` : ''}
+        ${p.githubUrl ? `<a href="${p.githubUrl}" target="_blank" class="overlay-btn ghost"><i class="fa-brands fa-github"></i> GitHub</a>` : ''}
       </div>` : '';
 
     const featuredBadge = p.featured ? `<span class="project-featured-badge">${p.featuredBadge}</span>` : '';
