@@ -384,8 +384,5 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
   msg.className = 'form-msg ok';
   this.reset();
   setTimeout(() => { msg.className = 'form-msg'; }, 5000);
-<<<<<<< HEAD
+
 });
-=======
-});
->>>>>>> e6aea6ad18b33cb1a6df3ddfd71346a73014e77f
