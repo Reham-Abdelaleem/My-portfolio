@@ -22,43 +22,43 @@
 
 <body>
   <!-- Custom Cursor -->
-  <div class="cursor" id="cursor"></div>
-  <div class="cursor-ring" id="cursorRing"></div>
+  <div class="cursor position-fixed rounded-circle" id="cursor"></div>
+  <div class="cursor-ring position-fixed rounded-circle" id="cursorRing"></div>
 
   <!-- ── NAVBAR ── -->
-  <nav id="navbar" class="d-flex align-items-center justify-content-between">
+  <nav id="navbar" class="position-fixed top-0 start-0 end-0 d-flex align-items-center justify-content-between">
     <div class="nav-logo">Reham<span>.</span></div>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Work</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    <ul class="nav-links list-unstyled" id="navLinks">
+      <li><a href="#about" class="text-decoration-none text-uppercase fw-normal position-relative">About</a></li>
+      <li><a href="#education" class="text-decoration-none text-uppercase fw-normal position-relative">Education</a></li>
+      <li><a href="#experience" class="text-decoration-none text-uppercase fw-normal position-relative">Experience</a></li>
+      <li><a href="#skills" class="text-decoration-none text-uppercase fw-normal position-relative">Skills</a></li>
+      <li><a href="#projects" class="text-decoration-none text-uppercase fw-normal position-relative">Work</a></li>
+      <li><a href="#services" class="text-decoration-none text-uppercase fw-normal position-relative">Services</a></li>
+      <li><a href="#contact" class="nav-cta text-decoration-none">Contact</a></li>
     </ul>
-    <button class="hamburger" id="hamburger" aria-label="Menu">
+    <button class="hamburger  flex-column p-0 border-0" id="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
   </nav>
 
   <!-- ── HERO ── -->
-  <section id="hero">
+  <section id="hero position-relative overflow-hidden d-flex align-items-center">
     <div class="container-fluid px-0 w-100">
       <div class="row align-items-center g-5">
         <div class="col-lg-6 hero-left">
-          <div class="hero-tag">Available for Work</div>
-          <h1 class="hero-name">Reham<br>Abd-el Aleem<em>Front-End Dev.</em></h1>
-          <p class="hero-tagline">Building responsive, user-friendly web experiences with clean code and creative
+          <div class="hero-tag fw-medium d-inline-flex align-items-center gap-2">Available for Work</div>
+          <h1 class="hero-name">Reham<br>Abd-el Aleem<em class="fst-italic d-block">Front-End Dev.</em></h1>
+          <p class="hero-tagline fs-6">Building responsive, user-friendly web experiences with clean code and creative
             design. Based in Cairo, Egypt.</p>
-          <div class="hero-actions">
-            <a href="#projects" class="btn-primary-custom">
+          <div class="hero-actions d-flex flex-wrap">
+            <a href="#projects" class="btn-primary-custom fw-medium text-decoration-none d-inline-flex align-items-center">
               <i class="fa-solid fa-arrow-right"></i> View My Work</a>
-            <a href="#contact" class="btn-outline-custom">
+            <a href="#contact" class="btn-outline-custom fw-medium text-decoration-none d-inline-flex align-items-center">
               <i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
           </div>
-          <div class="hero-socials">
-            <a href="mailto:rehamabdelalem08@email.com" title="Email">
+          <div class="hero-socials d-flex">
+            <a href="mailto:rehamabdelalem08@email.com" title="Email" class="text-decoration-none rounded-circle d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-envelope"></i></a>
             <a href="https://www.linkedin.com/in/reham-abd-el-aleem-2a0572248/" target="_blank"
               rel="noopener noreferrer" title="LinkedIn">
@@ -69,19 +69,19 @@
         </div>
         <div class="col-lg-6 hero-right-wrap">
           <div class="hero-right-container position-relative">
-            <div class="hero-visual">
-              <div class="hero-visual-inner">
-                <img src="images/profile.jpg" alt="Reham Abd El-Aleem">
-                <div class="hero-visual-text">Reham Abd El-Aleem<small>Front-End Developer · Cairo, Egypt</small></div>
+            <div class="hero-visual w-100 position-relative overflow-hidden my-0 mx-auto">
+              <div class="hero-visual-inner position-absolute overflow-hidden z-1">
+                <img src="images/profile.jpg" alt="Reham Abd El-Aleem" class="w-100 h-100 object-cover d-block">
+                <div class="hero-visual-text text-center position-absolute z-2 bottom-0 start-0 end-0 p-3">Reham Abd El-Aleem<small class="d-block mt-1">Front-End Developer · Cairo, Egypt</small></div>
               </div>
             </div>
-            <div class="floating-card card-top">
-              <div class="card-label">Graduation Project</div>
-              <div class="card-value">LamaPBX <span class="cbadge">A+</span></div>
+            <div class="floating-card card-top position-absolute">
+              <div class="card-label mb-1 text-uppercase">Graduation Project</div>
+              <div class="card-value d-flex align-items-center fw-semibold">LamaPBX <span class="cbadge">A+</span></div>
             </div>
-            <div class="floating-card card-bottom">
-              <div class="card-label">Status</div>
-              <div class="card-value">Open to Work <span class="cbadge">Remote</span></div>
+            <div class="floating-card card-bottom position-absolute">
+              <div class="card-label mb-1 text-uppercase">Status</div>
+              <div class="card-value d-flex align-items-center fw-semibold">Open to Work <span class="cbadge">Remote</span></div>
             </div>
           </div>
         </div>
@@ -91,8 +91,8 @@
 
   <!-- ── ABOUT ── -->
   <section id="about">
-    <div class="section-label reveal">About Me</div>
-    <h2 class="section-title reveal">Passionate about<br><em class="italic-text">building the web.</em></h2>
+    <div class="section-label d-flex align-items-center fw-medium text-uppercase reveal">About Me</div>
+    <h2 class="section-title mb-3 reveal">Passionate about<br><em class="italic-text">building the web.</em></h2>
     <div class="row g-5 mt-2">
       <div class="col-lg-6 about-bio reveal">
         <p class="about-text">Hi, I'm <strong>Reham Abd
@@ -107,57 +107,59 @@
             University</strong> with an <strong>A+ graduation project</strong>.</p>
         <div class="row g-3">
           <div class="col-4">
-            <div class="stat-box"><span class="stat-num">A+</span>
-              <div class="stat-lbl">Graduation Project</div>
+            <div class="stat-box text-center"><span class="stat-num d-block">A+</span>
+              <div class="stat-lbl mt-1">Graduation Project</div>
             </div>
           </div>
           <div class="col-4">
-            <div class="stat-box"><span class="stat-num">5+</span>
-              <div class="stat-lbl">Years of Study</div>
+            <div class="stat-box text-center"><span class="stat-num d-block">5+</span>
+              <div class="stat-lbl mt-1">Years of Study</div>
             </div>
           </div>
           <div class="col-4">
-            <div class="stat-box"><span class="stat-num">10+</span>
-              <div class="stat-lbl">Technologies</div>
+            <div class="stat-box text-center"><span class="stat-num d-block">10+</span>
+              <div class="stat-lbl mt-1">Technologies</div>
             </div>
           </div>
         </div>
       </div>
       <div class="col-lg-6 reveal">
-        <div class="about-summary">
+        <div class="about-summary h-100">
           <div class="summary-title">What Drives Me</div>
-          <div class="summary-item">
-            <div class="summary-icon">
+          <div class="summary-item d-flex py-3 px-0">
+            <div class="summary-icon d-flex align-items-center justify-content-center flex-shrink-0">
               <i class="fa-solid fa-wand-magic"></i>
             </div>
             <div class="summary-text">
-              <h4>Intuitive Experiences</h4>
-              <p>Creating interfaces that feel natural and delightful for every user.</p>
+              <h4 class="fw-semibold mb-1">Intuitive Experiences</h4>
+              <p class="m-0">Creating interfaces that feel natural and delightful for every user.</p>
             </div>
           </div>
-          <div class="summary-item">
-            <div class="summary-icon"><i class="fa-solid fa-code"></i></div>
+          <div class="summary-item d-flex py-3 px-0">
+            <div class="summary-icon d-flex align-items-center justify-content-center flex-shrink-0">
+              <i class="fa-solid fa-code"></i>
+            </div>
             <div class="summary-text">
-              <h4>Clean Code</h4>
-              <p>Writing maintainable, readable code that stands the test of time.</p>
+              <h4 class="fw-semibold mb-1">Clean Code</h4>
+              <p class="m-0">Writing maintainable, readable code that stands the test of time.</p>
             </div>
           </div>
-          <div class="summary-item">
-            <div class="summary-icon">
+          <div class="summary-item d-flex py-3 px-0">
+            <div class="summary-icon d-flex align-items-center justify-content-center flex-shrink-0">
               <i class="fa-solid fa-rocket"></i>
             </div>
             <div class="summary-text">
-              <h4>Continuous Growth</h4>
-              <p>Always learning new technologies and best practices in web development.</p>
+              <h4 class="fw-semibold mb-1">Continuous Growth</h4>
+              <p class="m-0">Always learning new technologies and best practices in web development.</p>
             </div>
           </div>
-          <div class="summary-item">
-            <div class="summary-icon">
+          <div class="summary-item d-flex py-3 px-0">
+            <div class="summary-icon d-flex align-items-center justify-content-center flex-shrink-0">
               <i class="fa-solid fa-lightbulb"></i>
             </div>
             <div class="summary-text">
-              <h4>Problem Solving</h4>
-              <p>Turning complex challenges into elegant technical solutions.</p>
+              <h4 class="fw-semibold mb-1">Problem Solving</h4>
+              <p class="m-0">Turning complex challenges into elegant technical solutions.</p>
             </div>
           </div>
         </div>
@@ -167,28 +169,28 @@
 
   <!-- ── EDUCATION ── -->
   <section id="education">
-    <div class="section-label reveal">Education & Credentials</div>
-    <h2 class="section-title reveal">Academic<br>Background</h2>
+    <div class="section-label d-flex align-items-center fw-medium text-uppercase reveal">Education & Credentials</div>
+    <h2 class="section-title mb-3 reveal">Academic<br>Background</h2>
     <div class="row g-4 mt-2">
       <div class="col-lg-6 reveal">
-        <div class="edu-main">
-          <div class="edu-badge">2020 — 2025</div>
-          <h3 class="edu-degree">B.Sc. Communication &amp; Electronics Engineering</h3>
+        <div class="edu-main position-relative overflow-hidden h-100">
+          <div class="edu-badge d-inline-block text-uppercase mb-4">2020 — 2025</div>
+          <h3 class="edu-degree fs-4">B.Sc. Communication &amp; Electronics Engineering</h3>
           <p class="edu-uni">🏛 Helwan University, Cairo, Egypt</p>
           <p class="edu-period">Sept 2020 – July 2025 · Grade: Good</p>
           <div class="edu-project">
-            <div class="edu-project-label">Graduation Project</div>
-            <div class="edu-project-name">LamaPBX — AI-Native Platform for Intelligent Customer Engagement</div>
-            <span class="grade-badge">⭐ Grade: A+ Excellent</span>
+            <div class="edu-project-label text-uppercase mb-2">Graduation Project</div>
+            <div class="edu-project-name fs-6 fw-medium">LamaPBX — AI-Native Platform for Intelligent Customer Engagement</div>
+            <span class="grade-badge d-inline-block fw-semibold">⭐ Grade: A+ Excellent</span>
           </div>
         </div>
       </div>
       <div class="col-lg-6 reveal">
         <div class="cert-card h-100">
           <div class="cert-icon">📜</div>
-          <div class="cert-name">Database Fundamentals</div>
-          <div class="cert-org">Mahara-Tech</div>
-          <div class="cert-tags">
+          <div class="cert-name fs-6 mb-1">Database Fundamentals</div>
+          <div class="cert-org fw-medium">Mahara-Tech</div>
+          <div class="cert-tags d-flex flex-wrap gap-2">
             <span class="tag">ERD Modeling</span>
             <span class="tag">SQL</span>
             <span class="tag">Normalization</span>
@@ -201,13 +203,13 @@
 
   <!-- ── EXPERIENCE ── -->
   <section id="experience">
-    <div class="section-label reveal">Work Experience</div>
-    <h2 class="section-title reveal">Where I've<br><em class="italic-text">Worked</em></h2>
-    <p class="section-desc reveal">Hands-on experience that shaped my skills and professional approach to web
+    <div class="section-label d-flex align-items-center fw-medium text-uppercase reveal">Work Experience</div>
+    <h2 class="section-title mb-3 reveal">Where I've<br><em class="italic-text">Worked</em></h2>
+    <p class="section-desc fs-6 reveal">Hands-on experience that shaped my skills and professional approach to web
       development.</p>
-    <div class="exp-timeline mt-5">
+    <div class="exp-timeline mt-5 position-relative">
       <div class="d-flex gap-4 reveal">
-        <div class="exp-dot">🏢</div>
+        <div class="exp-dot rounded-circle d-flex align-items-center justify-content-center flex-shrink-0 position-relative z-1">🏢</div>
         <div class="exp-body flex-grow-1">
           <div class="d-flex justify-content-between align-items-start flex-wrap gap-2 mb-2">
             <div class="exp-title">Front-End Developer Intern</div>
@@ -219,7 +221,7 @@
             <i class="fa-solid fa-building"></i> Under NTI
           </div>
           <div class="d-flex flex-column gap-2 mb-3">
-            <div class="exp-bullet">Front-End Development internship at Creativa Hub under the National
+            <div class="exp-bullet d-flex">Front-End Development internship at Creativa Hub under the National
               Telecommunication Institute (NTI).</div>
             <div class="exp-bullet">Developed responsive and mobile-first web interfaces using HTML, CSS, Bootstrap, and
               JavaScript.</div>
@@ -246,8 +248,8 @@
 
   <!-- ── SKILLS ── -->
   <section id="skills">
-    <div class="section-label reveal">Skills & Tools</div>
-    <h2 class="section-title reveal">Technologies<br>I Work With</h2>
+    <div class="section-label d-flex align-items-center fw-medium text-uppercase reveal">Skills & Tools</div>
+    <h2 class="section-title mb-3 reveal">Technologies<br>I Work With</h2>
     <div class="row g-5 mt-2">
       <div class="col-lg-3 skills-intro reveal">
         <p>I work across the full front-end spectrum —
@@ -259,56 +261,56 @@
       <div class="col-lg-9 reveal">
         <!-- Web Development -->
         <div class="mb-4">
-          <div class="skill-cat-title">
+          <div class="skill-cat-title d-flex align-items-center gap-2 fw-medium text-uppercase">
             <i class="fa-solid fa-code"></i> Web Development
           </div>
           <div>
-            <span class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5</span>
-            <span class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
-            <span class="skill-pill"><i class="fa-brands fa-square-js"></i> JavaScript</span>
-            <span class="skill-pill"><i class="fa-brands fa-react"></i> React.js</span>
-            <span class="skill-pill"><i class="fa-solid fa-server"></i> Next.js</span>
-            <span class="skill-pill"><i class="fa-brands fa-tailwind-css"></i> Tailwind CSS</span>
-            <span class="skill-pill"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
-            <span class="skill-pill"><i class="fa-solid fa-mobile-screen-button"></i> Responsive Design</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-brands fa-square-js"></i> JavaScript</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-brands fa-react"></i> React.js</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-solid fa-server"></i> Next.js</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-brands fa-tailwind-css"></i> Tailwind CSS</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-solid fa-mobile-screen-button"></i> Responsive Design</span>
           </div>
         </div>
 
         <!-- Tools -->
         <div class="mb-4">
-          <div class="skill-cat-title">
+          <div class="skill-cat-title d-flex align-items-center gap-2 fw-medium text-uppercase">
             <i class="fa-solid fa-screwdriver-wrench"></i> Tools & Technologies
           </div>
           <div>
-            <span class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git</span>
-            <span class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</span>
-            <span class="skill-pill"><i class="fa-brands fa-figma"></i> Figma</span>
-            <span class="skill-pill"><i class="fa-solid fa-file-lines"></i> MS Office</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-brands fa-github"></i> GitHub</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-brands fa-figma"></i> Figma</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-solid fa-file-lines"></i> MS Office</span>
           </div>
         </div>
 
         <!-- Database -->
         <div class="mb-4">
-          <div class="skill-cat-title">
+          <div class="skill-cat-title d-flex align-items-center gap-2 fw-medium text-uppercase">
             <i class="fa-solid fa-database"></i> Database
           </div>
           <div>
-            <span class="skill-pill"><i class="fa-solid fa-database"></i> SQL</span>
-            <span class="skill-pill"><i class="fa-solid fa-layer-group"></i> Database Design</span>
-            <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> ERD Modeling</span>
-            <span class="skill-pill"><i class="fa-solid fa-filter"></i> Normalization</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-solid fa-database"></i> SQL</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-solid fa-layer-group"></i> Database Design</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-solid fa-diagram-project"></i> ERD Modeling</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-solid fa-filter"></i> Normalization</span>
           </div>
         </div>
 
         <!-- Computer Science -->
         <div>
-          <div class="skill-cat-title">
+          <div class="skill-cat-title d-flex align-items-center gap-2 fw-medium text-uppercase">
             <i class="fa-solid fa-brain"></i> Computer Science
           </div>
           <div>
-            <span class="skill-pill"><i class="fa-solid fa-code"></i> C++</span>
-            <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> Data Structures</span>
-            <span class="skill-pill"><i class="fa-solid fa-sitemap"></i> Algorithms</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-solid fa-code"></i> C++</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-solid fa-diagram-project"></i> Data Structures</span>
+            <span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="fa-solid fa-sitemap"></i> Algorithms</span>
           </div>
         </div>
       </div>
@@ -319,251 +321,251 @@
   <section id="projects">
     <div class="d-flex justify-content-between align-items-end flex-wrap gap-3 mb-5">
       <div>
-        <div class="section-label reveal">Featured Work</div>
-        <h2 class="section-title reveal">Selected Projects</h2>
+        <div class="section-label d-flex align-items-center fw-medium text-uppercase reveal">Featured Work</div>
+        <h2 class="section-title mb-3 reveal">Selected Projects</h2>
       </div>
       <a href="https://github.com/Reham-Abdelaleem" target="_blank" rel="noopener noreferrer"
-        class="btn-outline-custom reveal">
+        class="btn-outline-custom reveal text-decoration-none">
         <i class="fa-brands fa-github"></i> View All on GitHub</a>
     </div>
-    <div class="projects-carousel">
-      <div class="carousel-track" id="projectsCarousel"></div>
+    <div class="projects-carousel w-100 position-relative overflow-hidden">
+      <div class="carousel-track d-flex" id="projectsCarousel"></div>
     </div>
   </section>
 
   <!-- ── SERVICES ── -->
   <section id="services">
-    <div class="section-label reveal">What I Do</div>
-    <h2 class="section-title reveal">Services I Offer</h2>
-    <p class="section-desc reveal">Clear, focused services tailored to help clients build fast, modern, and
+    <div class="section-label d-flex align-items-center fw-medium text-uppercase reveal">What I Do</div>
+    <h2 class="section-title mb-3 reveal">Services I Offer</h2>
+    <p class="section-desc fs-6 reveal">Clear, focused services tailored to help clients build fast, modern, and
       user-friendly web experiences.</p>
     <div class="row g-4 mt-2">
       <div class="col-md-6 col-lg-4 reveal">
-        <div class="service-card">
-          <div class="service-icon">
+        <div class="service-card h-100 position-relative overflow-hidden">
+          <div class="service-icon fs-5 d-flex align-items-center justify-content-center">
             <i class="fa-solid fa-laptop-code"></i>
           </div>
           <div class="service-name">Responsive Web Development</div>
-          <p class="service-desc">Modern, mobile-first websites that look and work perfectly on every screen size and
+          <p class="service-desc m-0">Modern, mobile-first websites that look and work perfectly on every screen size and
             device.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 reveal">
-        <div class="service-card">
-          <div class="service-icon">
+        <div class="service-card h-100 position-relative overflow-hidden">
+          <div class="service-icon fs-5 d-flex align-items-center justify-content-center">
             <i class="fa-brands fa-react"></i>
           </div>
           <div class="service-name">React & Next.js Apps</div>
-          <p class="service-desc">Dynamic, fast-loading single-page and server-side applications using cutting-edge
+          <p class="service-desc m-0">Dynamic, fast-loading single-page and server-side applications using cutting-edge
             frameworks.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 reveal">
-        <div class="service-card">
-          <div class="service-icon">
+        <div class="service-card h-100 position-relative overflow-hidden">
+          <div class="service-icon fs-5 d-flex align-items-center justify-content-center">
             <i class="fa-solid fa-palette"></i>
           </div>
           <div class="service-name">UI/UX Implementation</div>
-          <p class="service-desc">Transforming Figma/design files into pixel-perfect, interactive and accessible
+          <p class="service-desc m-0">Transforming Figma/design files into pixel-perfect, interactive and accessible
             interfaces.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 reveal">
-        <div class="service-card">
-          <div class="service-icon">
+        <div class="service-card h-100 position-relative overflow-hidden">
+          <div class="service-icon fs-5 d-flex align-items-center justify-content-center">
             <i class="fa-solid fa-rocket"></i>
           </div>
           <div class="service-name">Frontend Performance</div>
-          <p class="service-desc">Optimizing web apps for speed, Core Web Vitals, and smooth user experience at scale.
+          <p class="service-desc m-0">Optimizing web apps for speed, Core Web Vitals, and smooth user experience at scale.
           </p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 reveal">
-        <div class="service-card">
-          <div class="service-icon">
+        <div class="service-card h-100 position-relative overflow-hidden">
+          <div class="service-icon fs-5 d-flex align-items-center justify-content-center">
             <i class="fa-solid fa-database"></i>
           </div>
           <div class="service-name">Database Design</div>
-          <p class="service-desc">Designing clean relational database schemas with ERD modeling, SQL, and normalization.
+          <p class="service-desc m-0">Designing clean relational database schemas with ERD modeling, SQL, and normalization.
           </p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 reveal">
-        <div class="service-card">
-          <div class="service-icon">
+        <div class="service-card h-100 position-relative overflow-hidden">
+          <div class="service-icon fs-5 d-flex align-items-center justify-content-center">
             <i class="fa-solid fa-wrench"></i>
           </div>
           <div class="service-name">Website Maintenance</div>
-          <p class="service-desc">Keeping your website updated, bug-free, secure, and running at peak performance.</p>
+          <p class="service-desc m-0">Keeping your website updated, bug-free, secure, and running at peak performance.</p>
         </div>
       </div>
     </div>
     <div class="text-center mt-5 reveal">
       <p class="services-cta-text">Let's work together to bring your
         ideas to life!</p>
-      <a href="#contact" class="btn-white-custom">
+      <a href="#contact" class="btn-white-custom fw-semibold text-decoration-none d-inline-flex align-items-center">
         <i class="fa-solid fa-arrow-right"></i> Start a Project</a>
     </div>
   </section>
 
   <!-- ── WHY CHOOSE ME ── -->
   <section id="why">
-    <div class="section-label reveal">Why Work With Me</div>
-    <h2 class="section-title reveal">What Makes Me<br><em class="italic-text">Different</em></h2>
-    <p class="section-desc reveal">A combination of technical skills, professional habits, and a genuine passion for
+    <div class="section-label d-flex align-items-center fw-medium text-uppercase reveal">Why Work With Me</div>
+    <h2 class="section-title mb-3 reveal">What Makes Me<br><em class="italic-text">Different</em></h2>
+    <p class="section-desc fs-6 reveal">A combination of technical skills, professional habits, and a genuine passion for
       building great web experiences.</p>
     <div class="row g-4 mt-2">
       <div class="col-sm-6 col-lg-3 reveal">
-        <div class="why-card"><span class="why-emoji">💪</span>
-          <div class="why-title">Strong Technical Foundation</div>
-          <p class="why-desc">Solid understanding of web development fundamentals and modern frameworks like React and
+        <div class="why-card h-100 position-relative overflow-hidden"><span class="why-emoji d-block">💪</span>
+          <div class="why-title mb-2">Strong Technical Foundation</div>
+          <p class="why-desc m-0">Solid understanding of web development fundamentals and modern frameworks like React and
             Next.js.</p>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3 reveal">
-        <div class="why-card"><span class="why-emoji">🎯</span>
-          <div class="why-title">Detail-Oriented</div>
-          <p class="why-desc">Committed to writing clean, maintainable code and creating polished user experiences down
+        <div class="why-card h-100 position-relative overflow-hidden"><span class="why-emoji d-block">🎯</span>
+          <div class="why-title mb-2">Detail-Oriented</div>
+          <p class="why-desc m-0">Committed to writing clean, maintainable code and creating polished user experiences down
             to the pixel.</p>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3 reveal">
-        <div class="why-card"><span class="why-emoji">📚</span>
-          <div class="why-title">Continuous Learner</div>
-          <p class="why-desc">Always staying updated with the latest web technologies, best practices, and industry
+        <div class="why-card h-100 position-relative overflow-hidden"><span class="why-emoji d-block">📚</span>
+          <div class="why-title mb-2">Continuous Learner</div>
+          <p class="why-desc m-0">Always staying updated with the latest web technologies, best practices, and industry
             trends.</p>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3 reveal">
-        <div class="why-card"><span class="why-emoji">🚀</span>
-          <div class="why-title">Problem Solver</div>
-          <p class="why-desc">Strong analytical skills with the ability to tackle complex challenges and find elegant
+        <div class="why-card h-100 position-relative overflow-hidden"><span class="why-emoji d-block">🚀</span>
+          <div class="why-title mb-2">Problem Solver</div>
+          <p class="why-desc m-0">Strong analytical skills with the ability to tackle complex challenges and find elegant
             solutions.</p>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3 reveal">
-        <div class="why-card"><span class="why-emoji">⏰</span>
-          <div class="why-title">Reliable & Professional</div>
-          <p class="why-desc">Meeting deadlines and maintaining clear, consistent communication throughout every
+        <div class="why-card h-100 position-relative overflow-hidden"><span class="why-emoji d-block">⏰</span>
+          <div class="why-title mb-2">Reliable & Professional</div>
+          <p class="why-desc m-0">Meeting deadlines and maintaining clear, consistent communication throughout every
             project.</p>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3 reveal">
-        <div class="why-card"><span class="why-emoji">🤝</span>
-          <div class="why-title">Team Player</div>
-          <p class="why-desc">Proven experience working collaboratively in team environments with positive results.</p>
+        <div class="why-card h-100 position-relative overflow-hidden"><span class="why-emoji d-block">🤝</span>
+          <div class="why-title mb-2">Team Player</div>
+          <p class="why-desc m-0">Proven experience working collaboratively in team environments with positive results.</p>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3 reveal">
-        <div class="why-card"><span class="why-emoji">💡</span>
-          <div class="why-title">Creative Thinker</div>
-          <p class="why-desc">Bringing fresh ideas and innovative solutions to every project I work on.</p>
+        <div class="why-card h-100 position-relative overflow-hidden"><span class="why-emoji d-block">💡</span>
+          <div class="why-title mb-2">Creative Thinker</div>
+          <p class="why-desc m-0">Bringing fresh ideas and innovative solutions to every project I work on.</p>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3 reveal">
-        <div class="why-card why-card-highlight"><span class="why-emoji">✨</span>
-          <div class="why-title">Immediate Availability</div>
-          <p class="why-desc">Available to start right away — Remote, Hybrid, or On-site.</p>
+        <div class="why-card h-100 position-relative overflow-hidden why-card-highlight"><span class="why-emoji d-block">✨</span>
+          <div class="why-title mb-2">Immediate Availability</div>
+          <p class="why-desc m-0">Available to start right away — Remote, Hybrid, or On-site.</p>
         </div>
       </div>
     </div>
-    <div class="why-cta-box reveal">
+    <div class="why-cta-box d-flex flex-wrap align-items-center justify-content-between reveal">
       <div class="why-cta-text">
-        <h3>Ready to build something great?</h3>
-        <p>Let's turn your ideas into a polished, high-performing web experience.</p>
+        <h3 class="mb-2">Ready to build something great?</h3>
+        <p class="m-0">Let's turn your ideas into a polished, high-performing web experience.</p>
       </div>
-      <a href="#contact" class="btn-white-custom">
+      <a href="#contact" class="btn-white-custom fw-semibold text-decoration-none d-inline-flex align-items-center">
         <i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
     </div>
   </section>
 
   <!-- ── CONTACT ── -->
   <section id="contact">
-    <div class="section-label reveal">Get In Touch</div>
-    <h2 class="section-title reveal">Let's Work<br>Together</h2>
+    <div class="section-label d-flex align-items-center fw-medium text-uppercase reveal">Get In Touch</div>
+    <h2 class="section-title mb-3 reveal">Let's Work<br>Together</h2>
     <div class="row g-5 mt-2">
       <div class="col-lg-6 reveal">
-        <p class="contact-intro">Ready to start your next project? I'm currently available for freelance work and
+        <p class="contact-intro fs-6">Ready to start your next project? I'm currently available for freelance work and
           full-time positions. Reach out and let's create something great together.</p>
         <div class="d-flex flex-column gap-3 mb-4">
-          <a href="mailto:rehamabdelalem08@email.com" class="contact-item">
-            <div class="contact-item-icon">
+          <a href="mailto:rehamabdelalem08@email.com" class="contact-item text-decoration-none d-flex align-items-center gap-3">
+            <div class="contact-item-icon d-flex align-items-center justify-content-center flex-shrink-0">
               <i class="fa-solid fa-envelope"></i>
             </div>
             <div>
               <div class="contact-item-text">Email</div>
-              <div class="contact-item-value">rehamabdelalem08@email.com</div>
+              <div class="contact-item-value fw-medium">rehamabdelalem08@email.com</div>
             </div>
           </a>
-          <a href="tel:+201157168481" class="contact-item">
-            <div class="contact-item-icon">
+          <a href="tel:+201157168481" class="contact-item text-decoration-none d-flex align-items-center gap-3">
+            <div class="contact-item-icon d-flex align-items-center justify-content-center flex-shrink-0">
               <i class="fa-solid fa-phone"></i>
             </div>
             <div>
               <div class="contact-item-text">Phone</div>
-              <div class="contact-item-value">+20 115 716 8481</div>
+              <div class="contact-item-value fw-medium">+20 115 716 8481</div>
             </div>
           </a>
           <a href="https://www.linkedin.com/in/reham-abd-el-aleem-2a0572248/" target="_blank" rel="noopener noreferrer"
-            class="contact-item">
-            <div class="contact-item-icon">
+            class="contact-item text-decoration-none d-flex align-items-center gap-3">
+            <div class="contact-item-icon d-flex align-items-center justify-content-center flex-shrink-0">
               <i class="fa-brands fa-square-linkedin"></i>
             </div>
             <div>
               <div class="contact-item-text">LinkedIn</div>
-              <div class="contact-item-value">reham-abd-el-aleem</div>
+              <div class="contact-item-value fw-medium">reham-abd-el-aleem</div>
             </div>
           </a>
-          <a href="https://github.com/Reham-Abdelaleem" target="_blank" rel="noopener noreferrer" class="contact-item">
-            <div class="contact-item-icon">
+          <a href="https://github.com/Reham-Abdelaleem" target="_blank" rel="noopener noreferrer" class="contact-item text-decoration-none d-flex align-items-center gap-3">
+            <div class="contact-item-icon d-flex align-items-center justify-content-center flex-shrink-0">
               <i class="fa-brands fa-github"></i>
             </div>
             <div>
               <div class="contact-item-text">GitHub</div>
-              <div class="contact-item-value">Reham-Abdelaleem</div>
+              <div class="contact-item-value fw-medium">Reham-Abdelaleem</div>
             </div>
           </a>
-          <div class="contact-item contact-item-no-cursor">
-            <div class="contact-item-icon">
+          <div class="contact-item text-decoration-none d-flex align-items-center gap-3 contact-item-no-cursor">
+            <div class="contact-item-icon d-flex align-items-center justify-content-center flex-shrink-0">
               <i class="fa-solid fa-location-dot"></i>
             </div>
             <div>
               <div class="contact-item-text">Location</div>
-              <div class="contact-item-value">Cairo, Egypt</div>
+              <div class="contact-item-value fw-medium">Cairo, Egypt</div>
             </div>
           </div>
         </div>
-        <div class="contact-avail">
+        <!-- <div class="contact-avail">
           <span class="avail-dot"></span>
           <span class="avail-text"><strong>Available Immediately</strong> · Remote, Hybrid, or On-site</span>
-        </div>
+        </div> -->
       </div>
       <div class="col-lg-6 reveal">
         <div class="contact-form-box">
-          <div class="form-title">Send a Message</div>
+          <div class="form-title mb-4">Send a Message</div>
           <form id="contactForm">
             <div class="row g-3 mb-3">
               <div class="col-sm-6">
-                <label class="form-label-custom">Your Name</label>
-                <input type="text" class="form-input-custom" id="fname" placeholder="Ahmed Mohamed" required>
+                <label class="form-label-custom d-block text-uppercase fw-medium mb-2">Your Name</label>
+                <input type="text" class="form-input-custom w-100" id="fname" placeholder="Ahmed Mohamed" required>
               </div>
               <div class="col-sm-6">
-                <label class="form-label-custom">Email Address</label>
-                <input type="email" class="form-input-custom" id="femail" placeholder="ahmed@example.com" required>
+                <label class="form-label-custom d-block text-uppercase fw-medium mb-2">Email Address</label>
+                <input type="email" class="form-input-custom w-100" id="femail" placeholder="ahmed@example.com" required>
               </div>
             </div>
             <div class="mb-3">
-              <label class="form-label-custom">Subject</label>
-              <input type="text" class="form-input-custom" id="fsubject" placeholder="Project Collaboration">
+              <label class="form-label-custom d-block text-uppercase fw-medium mb-2">Subject</label>
+              <input type="text" class="form-input-custom w-100" id="fsubject" placeholder="Project Collaboration">
             </div>
             <div class="mb-3">
-              <label class="form-label-custom">Message</label>
-              <textarea class="form-input-custom" id="fmessage" placeholder="Tell me about your project..."
+              <label class="form-label-custom d-block text-uppercase fw-medium mb-2">Message</label>
+              <textarea class="form-input-custom w-100" id="fmessage" placeholder="Tell me about your project..."
                 required></textarea>
             </div>
-            <button type="submit" class="form-submit">
+            <button type="submit" class="form-submit w-100 border-0 p-3 fw-medium d-flex align-items-center justify-content-center gap-2">
               <i class="fa-solid fa-paper-plane"></i> Send Message</button>
-            <div class="form-msg" id="formMsg"></div>
+            <div class="form-msg text-center" id="formMsg"></div>
           </form>
         </div>
       </div>
@@ -574,18 +576,18 @@
   <footer class="d-flex align-items-center justify-content-between flex-wrap gap-3">
     <div class="footer-logo">Reham<span class="footer-dot">.</span></div>
     <div class="footer-copy">© 2025 Reham Abd El-Aleem · Turning Ideas Into Interactive Experiences</div>
-    <div class="footer-socials">
-      <a href="mailto:rehamabdelalem08@email.com" title="Email">
+    <div class="footer-socials d-flex">
+      <a href="mailto:rehamabdelalem08@email.com" title="Email" class="text-decoration-none rounded-circle d-flex align-items-center justify-content-center">
         <i class="fa-solid fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/reham-abd-el-aleem-2a0572248/" target="_blank" rel="noopener noreferrer"
-        title="LinkedIn">
+        title="LinkedIn" class="text-decoration-none rounded-circle d-flex align-items-center justify-content-center">
         <i class="fa-brands fa-square-linkedin"></i></a>
-      <a href="https://github.com/Reham-Abdelaleem" target="_blank" rel="noopener noreferrer" title="GitHub">
+      <a href="https://github.com/Reham-Abdelaleem" target="_blank" rel="noopener noreferrer" title="GitHub" class="text-decoration-none rounded-circle d-flex align-items-center justify-content-center">
         <i class="fa-brands fa-github"></i></a>
     </div>
   </footer>
 
-  <button id="scrollTop" type="button" title="Scroll to top">
+  <button id="scrollTop" type="button" title="Scroll to top" class="position-fixed rounded-circle border-0">
     <i class="fa-solid fa-arrow-up"></i></button>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -596,8 +598,4 @@
 
 </body>
 
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> e6aea6ad18b33cb1a6df3ddfd71346a73014e77f

@@ -1,4 +1,5 @@
 // ── PROJECTS DATA ──
+
 const projects = [
   // {
   //   num: '01',
@@ -26,19 +27,19 @@ const projects = [
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/Leon-Creative Digital Agency.jpg',
-      alt: 'Leon Agency'
+      img: 'images/Survey-Land.jpg',
+      alt: 'Survey Land'
     },
-    tech: ['HTML5', 'CSS3', 'Bootstrap 5'],
-    tags: [{ label: 'Landing Page' }, { label: 'Personal Project' }],
-    title: 'Leon — Digital Agency',
-    desc: 'Modern landing page for a creative digital agency. Fully responsive across all devices with clean Bootstrap 5 layout and custom CSS.',
+    tech: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'React Query'],
+    tags: [{ label: 'Survey Management' }, { label: 'Web Platform' }],
+    title: 'Survey Land — Survey Management Platform',
+    desc: 'A responsive survey management platform designed to create, manage, and monitor surveys through an intuitive interface. Includes survey creation and management, interactive dashboards, data visualization, and organized survey tracking across different views.',
     results: [
-      { icon: 'fa-solid fa-circle-check', text: 'Fully Responsive' },
-      { icon: 'fa-solid fa-circle-check', text: 'Clean Modern UI' }
+      { icon: 'fa-solid fa-circle-check', text: '31 UI Screens & 29 Features' },
+      { icon: 'fa-solid fa-circle-check', text: 'Reusable Components & Responsive UI' }
     ],
-    liveUrl: 'https://leon-digital-agency-template.netlify.app/',
-    githubUrl: 'https://github.com/Reham-Abdelaleem/Leon-Digital-Agency-Template'
+    liveUrl: 'https://surveyland-team1-round5.vercel.app',
+    githubUrl: 'https://github.com/AfaaqWare/Level1-Round6-Team6.git'
   },
   {
     num: '02',
@@ -46,19 +47,19 @@ const projects = [
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/Elevvo-task1-Collapsible-Sidebar.jpg',
-      alt: 'ShopZone'
+      img: 'images/Mashrouak-landing-page.jpg',
+      alt: 'Mashrouak'
     },
-    tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
-    tags: [{ label: 'Dashboard UI' }, { label: 'Personal Project' }],
-    title: 'ShopZone',
-    desc: 'Premium shopping dashboard with an animated collapsible sidebar. Fully responsive — collapses to icons on desktop and slides in as a drawer on mobile.',
+    tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript', 'jQuery', 'Owl Carousel'],
+    tags: [{ label: 'Landing Page' }, { label: 'Personal Project' }],
+    title: 'Mashrouak — Digital Development Agency',
+    desc: 'Full Arabic RTL landing page for a digital development agency. Features services, portfolio grid, pricing cards rendered from JS arrays, testimonials carousel, FAQ accordion, and form validation.',
     results: [
-      { icon: 'fa-solid fa-circle-check', text: 'Animated Sidebar' },
-      { icon: 'fa-solid fa-circle-check', text: 'Mobile Responsive' }
+      { icon: 'fa-solid fa-circle-check', text: 'Dynamic JS Rendering' },
+      { icon: 'fa-solid fa-circle-check', text: 'FAQ Accordion & Form Validation' }
     ],
-    liveUrl: 'https://modern-collapsible-sidebar.netlify.app/',
-    githubUrl: 'https://github.com/Reham-Abdelaleem/Elvevo-task1-Collapsible-Sidebar'
+    liveUrl: 'https://mashrouak-landing-page.vercel.app/',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/Mashrouak-landing-page.git'
   },
   {
     num: '03',
@@ -66,19 +67,19 @@ const projects = [
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/Elevvo-task2-Contact-Form.jpg',
-      alt: 'Contact Form'
+      img: 'images/L-Artisan-Crust.jpg',
+      alt: "L'Artisan Crust"
     },
-    tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
-    tags: [{ label: 'Form UI' }, { label: 'Personal Project' }],
-    title: 'Contact Form',
-    desc: 'Elegant contact form with real-time validation, character counter, error/success states, and smooth animations. Fully responsive.',
+    tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript', 'Owl Carousel'],
+    tags: [{ label: 'Landing Page' }, { label: 'Personal Project' }],
+    title: "L'Artisan Crust — Boulangerie de Luxe",
+    desc: 'Elegant Arabic RTL landing page for a luxury bakery. Features a portfolio gallery, customer reviews carousel, contact form validation, and smooth scroll animations.',
     results: [
-      { icon: 'fa-solid fa-circle-check', text: 'Real-time Validation' },
-      { icon: 'fa-solid fa-circle-check', text: 'Animated Feedback' }
+      { icon: 'fa-solid fa-circle-check', text: 'Luxury Visual Design' },
+      { icon: 'fa-solid fa-circle-check', text: 'Reviews Carousel' }
     ],
-    liveUrl: 'https://modern-contact-form-validation.netlify.app/',
-    githubUrl: 'https://github.com/Reham-Abdelaleem/Elvevo-task2-Contact-Form'
+    liveUrl: 'https://l-artisan-crust-landing-page.vercel.app/',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/L-Artisan-Crust.git'
   },
   {
     num: '04',
@@ -86,19 +87,19 @@ const projects = [
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/Elevvo-task3-TaskFlow.jpg',
-      alt: 'TaskFlow'
+      img: 'images/Magnetic-media-landing-page.jpg',
+      alt: 'Magnetic Media'
     },
-    tech: ['HTML5', 'CSS3', 'JavaScript'],
+    tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
     tags: [{ label: 'Landing Page' }, { label: 'Personal Project' }],
-    title: 'TaskFlow',
-    desc: 'Modern SaaS landing page with hero, features, reviews, and pricing sections. Includes scroll animations, counter effects, and ripple buttons.',
+    title: 'Magnetic Media — Marketing Agency',
+    desc: 'Professional Arabic RTL landing page for a digital marketing agency. Features scroll animations, counter effects, contact form validation, and active nav highlighting.',
     results: [
-      { icon: 'fa-solid fa-circle-check', text: 'Scroll Animations' },
-      { icon: 'fa-solid fa-circle-check', text: 'Fully Responsive' }
+      { icon: 'fa-solid fa-circle-check', text: 'Arabic RTL Support' },
+      { icon: 'fa-solid fa-circle-check', text: 'Form Validation' }
     ],
-    liveUrl: 'https://taskflow-app-showcase.netlify.app/',
-    githubUrl: 'https://github.com/Reham-Abdelaleem/Elevvo-Task3-TaskFlow'
+    liveUrl: 'https://magnetic-media-landing-page.vercel.app/',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/Magnetic-media-landing-page.git'
   },
   {
     num: '05',
@@ -117,8 +118,88 @@ const projects = [
       { icon: 'fa-solid fa-circle-check', text: 'Live Search & Filter' },
       { icon: 'fa-solid fa-circle-check', text: 'Pagination' }
     ],
-    liveUrl: 'https://dynamic-personal-blog.netlify.app/',
+    liveUrl: 'https://dynamic-personal-blog.vercel.app/',
     githubUrl: 'https://github.com/Reham-Abdelaleem/Elevvo-Task4-PersonalBlog'
+  }, 
+  {
+    num: '06',
+    featured: false,
+    visual: {
+      type: 'image',
+      bg: '#000',
+      img: 'images/Elevvo-task3-TaskFlow.jpg',
+      alt: 'TaskFlow'
+    },
+    tech: ['HTML5', 'CSS3', 'JavaScript'],
+    tags: [{ label: 'Landing Page' }, { label: 'Personal Project' }],
+    title: 'TaskFlow',
+    desc: 'Modern SaaS landing page with hero, features, reviews, and pricing sections. Includes scroll animations, counter effects, and ripple buttons.',
+    results: [
+      { icon: 'fa-solid fa-circle-check', text: 'Scroll Animations' },
+      { icon: 'fa-solid fa-circle-check', text: 'Fully Responsive' }
+    ],
+    liveUrl: 'https://taskflow-app-showcase.vercel.app/',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/Elevvo-Task3-TaskFlow'
+  }, 
+  {
+    num: '07',
+    featured: false,
+    visual: {
+      type: 'image',
+      bg: '#000',
+      img: 'images/Elevvo-task2-Contact-Form.jpg',
+      alt: 'Contact Form'
+    },
+    tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
+    tags: [{ label: 'Form UI' }, { label: 'Personal Project' }],
+    title: 'Contact Form',
+    desc: 'Elegant contact form with real-time validation, character counter, error/success states, and smooth animations. Fully responsive.',
+    results: [
+      { icon: 'fa-solid fa-circle-check', text: 'Real-time Validation' },
+      { icon: 'fa-solid fa-circle-check', text: 'Animated Feedback' }
+    ],
+    liveUrl: 'https://modern-contact-form-validation.vercel.app/',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/Elvevo-task2-Contact-Form'
+  },     
+  {
+    num: '08',
+    featured: false,
+    visual: {
+      type: 'image',
+      bg: '#000',
+      img: 'images/Elevvo-task1-Collapsible-Sidebar.jpg',
+      alt: 'ShopZone'
+    },
+    tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
+    tags: [{ label: 'Dashboard UI' }, { label: 'Personal Project' }],
+    title: 'ShopZone',
+    desc: 'Premium shopping dashboard with an animated collapsible sidebar. Fully responsive — collapses to icons on desktop and slides in as a drawer on mobile.',
+    results: [
+      { icon: 'fa-solid fa-circle-check', text: 'Animated Sidebar' },
+      { icon: 'fa-solid fa-circle-check', text: 'Mobile Responsive' }
+    ],
+    liveUrl: 'https://modern-collapsible-sidebar.vercel.app/',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/Elvevo-task1-Collapsible-Sidebar'
+  },
+  {
+    num: '09',
+    featured: false,
+    visual: {
+      type: 'image',
+      bg: '#000',
+      img: 'images/Leon-Creative Digital Agency.jpg',
+      alt: 'Leon Agency'
+    },
+    tech: ['HTML5', 'CSS3', 'Bootstrap 5'],
+    tags: [{ label: 'Landing Page' }, { label: 'Personal Project' }],
+    title: 'Leon — Digital Agency',
+    desc: 'Modern landing page for a creative digital agency. Fully responsive across all devices with clean Bootstrap 5 layout and custom CSS.',
+    results: [
+      { icon: 'fa-solid fa-circle-check', text: 'Fully Responsive' },
+      { icon: 'fa-solid fa-circle-check', text: 'Clean Modern UI' }
+    ],
+    liveUrl: 'https://leon-digital-agency-template.vercel.app/',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/Leon-Digital-Agency-Template'
   }
 ];
 
@@ -128,36 +209,36 @@ function renderProjects() {
   carousel.innerHTML = projects.map(p => {
     let visualInner = '';
     if (p.visual.type === 'gradient') {
-      visualInner = `<div class="project-visual-bg"><div class="project-visual-icon">${p.visual.icon}</div></div>`;
+      visualInner = `<div class="project-visual-bg d-flex align-items-center justify-content-center position-absolute"><div class="project-visual-icon">${p.visual.icon}</div></div>`;
     } else {
-      visualInner = `<img src="${p.visual.img}" alt="${p.visual.alt}" style="width:100%;height:100%;object-fit:cover;opacity:.85;">`;
+      visualInner = `<img src="${p.visual.img}" alt="${p.visual.alt}" class="w-100 h-100 object-fit-cover position-absolute overflow-hidden">`;
     }
 
-    const techBadges = p.tech.map(t => `<span class="tech-badge">${t}</span>`).join('');
-    const overlayTags = p.tags.map(t => `<span class="overlay-tag${t.accent ? ' accent' : ''}">${t.label}</span>`).join('');
-    const results = p.results.map(r => `<div class="overlay-result"><i class="fas ${r.icon}"></i> ${r.text}</div>`).join('');
+    const techBadges = p.tech.map(t => `<span class="tech-badge fw-medium">${t}</span>`).join('');
+    const overlayTags = p.tags.map(t => `<span class="overlay-tag fw-medium${t.accent ? ' accent' : ''}">${t.label}</span>`).join('');
+    const results = p.results.map(r => `<div class="overlay-result d-flex align-items-center gap-1 fw-medium"><i class="fas ${r.icon}"></i> ${r.text}</div>`).join('');
 
     const actions = (p.liveUrl || p.githubUrl) ? `
-      <div class="overlay-actions">
-        ${p.liveUrl ? `<a href="${p.liveUrl}"   target="_blank" class="overlay-btn primary"><i class="fa-solid fa-link"></i> Live Demo</a>` : ''}
-        ${p.githubUrl ? `<a href="${p.githubUrl}" target="_blank" class="overlay-btn ghost"><i class="fa-brands fa-github"></i> GitHub</a>` : ''}
+      <div class="overlay-actions d-flex flex-wrap gap-2">
+        ${p.liveUrl ? `<a href="${p.liveUrl}"   target="_blank" class="overlay-btn primary text-decoration-none fw-medium d-inline-flex align-items-center gap-1"><i class="fa-solid fa-link"></i> Live Demo</a>` : ''}
+        ${p.githubUrl ? `<a href="${p.githubUrl}" target="_blank" class="overlay-btn ghost text-decoration-none fw-medium d-inline-flex align-items-center gap-1"><i class="fa-brands fa-github"></i> GitHub</a>` : ''}
       </div>` : '';
 
-    const featuredBadge = p.featured ? `<span class="project-featured-badge">${p.featuredBadge}</span>` : '';
+    const featuredBadge = p.featured ? `<span class="project-featured-badge text-uppercase fw-semibold position-absolute z-2">${p.featuredBadge}</span>` : '';
 
     return `
-      <div class="project-card${p.featured ? ' featured' : ''}">
+      <div class="project-card position-relative overflow-hidden w-100${p.featured ? ' featured' : ''}">
         ${featuredBadge}
-        <div class="project-visual" style="background:${p.visual.bg};">
+        <div class="project-visual position-absolute overflow-hidden d-flex align-items-center justify-content-center" style="background:${p.visual.bg};">
           ${visualInner}
-          <div class="project-num">${p.num}</div>
-          <div class="project-tech-stack">${techBadges}</div>
+          <div class="project-num fw-medium position-absolute">${p.num}</div>
+          <div class="project-tech-stack d-flex flex-wrap justify-content-end gap-1 position-absolute z-2">${techBadges}</div>
         </div>
-        <div class="project-overlay">
-          <div class="overlay-tags">${overlayTags}</div>
-          <div class="overlay-title">${p.title}</div>
-          <div class="overlay-desc">${p.desc}</div>
-          <div class="overlay-results">${results}</div>
+        <div class="project-overlay position-absolute z-3 overflow-hidden d-flex flex-column justify-content-evenly opacity-0">
+          <div class="overlay-tags d-flex flex-wrap mb-2">${overlayTags}</div>
+          <div class="overlay-title mb-1">${p.title}</div>
+          <div class="overlay-desc overflow-hidden">${p.desc}</div>
+          <div class="overlay-results d-flex flex-wrap gap-2">${results}</div>
           ${actions}
         </div>
       </div>`;
@@ -194,13 +275,13 @@ renderProjects();
   let autoplay = setInterval(() => {
     current = (current + 1 > totalCards - getVisible()) ? 0 : current + 1;
     goTo(current);
-  }, 3500);
+  }, 7500);
 
   function startAutoplay() {
     autoplay = setInterval(() => {
       current = (current + 1 > totalCards - getVisible()) ? 0 : current + 1;
       goTo(current);
-    }, 3500);
+    }, 7500);
   }
 
   function stopAutoplay() {
@@ -360,7 +441,7 @@ window.addEventListener('scroll', () => {
     if (window.scrollY >= s.offsetTop - 120) cur = s.id;
   });
   document.querySelectorAll('.nav-links a').forEach(a => {
-    a.style.color = a.getAttribute('href') === '#' + cur ? 'var(--blue)' : '';
+    a.classList.toggle('active', a.getAttribute('href') === '#' + cur);
   });
 });
 
