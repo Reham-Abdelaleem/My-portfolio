@@ -1,14 +1,33 @@
 // ── PROJECTS DATA ──
-
 const projects = [
+  {
+    num: '01',
+    featured: false,
+    visual: {
+      type: 'image',
+      bg: 'linear-gradient(135deg,#dde3ff,#eef1ff)',
+      img: 'assets/images/Perfume-E-Commerce.png',
+      alt: 'Perfume E-Commerce Website',
+    },
+    tech: ['Front-End', 'E-Commerce UI', 'Responsive Design'],
+    tags: [{ label: 'E-Commerce' }, { label: 'Web Application' }],
+    title: 'Perfume E-Commerce Website',
+    desc: 'A premium e-commerce web application for perfumes. Built the front end to deliver a user-friendly shopping experience based on the project requirements and UI designs, as part of the Digitera Front-End Track (EraaSoft × iCareer).',
+    results: [
+      { icon: 'fa-solid fa-circle-check', text: 'Requirements & UI Designs Implemented' },
+      { icon: 'fa-solid fa-circle-check', text: 'User-Friendly Shopping Experience' }
+    ],
+    liveUrl: 'https://digitera-project-lovat.vercel.app/products',
+    githubUrl: 'https://github.com/Reham-Abdelaleem/Digitera-project.git'
+  },
   // {
-  //   num: '01',
+  //   num: '02',
   //   featured: true,
-  //   featuredBadge: '⭐ Graduation Project',
+  //   featuredBadge: '<i class="fa-solid fa-star"></i> Graduation Project',
   //   visual: {
   //     type: 'gradient',
   //     bg: 'linear-gradient(135deg,#dde3ff,#eef1ff)',
-  //     icon: '🤖'
+  //     icon: 'fa-solid fa-robot'
   //   },
   //   tech: ['React.js', 'Next.js', 'REST APIs'],
   //   tags: [{ label: 'Graduation Project', accent: true }, { label: 'A+ Grade' }],
@@ -22,18 +41,18 @@ const projects = [
   //   githubUrl: null
   // },
   {
-    num: '01',
+    num: '02',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/Survey-Land.jpg',
+      img: 'assets/images/Survey-Land.jpg',
       alt: 'Survey Land'
     },
     tech: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'React Query'],
-    tags: [{ label: 'Survey Management' }, { label: 'Web Platform' }],
+    tags: [{ label: 'Survey Management' }, { label: 'Team Project · 5 Members' }],
     title: 'Survey Land — Survey Management Platform',
-    desc: 'A responsive survey management platform designed to create, manage, and monitor surveys through an intuitive interface. Includes survey creation and management, interactive dashboards, data visualization, and organized survey tracking across different views.',
+    desc: 'A professional survey management platform built as part of a 5-member Front-End team (Afaaqware training program). The team implemented a responsive UI, reusable components, survey management, dashboards, and API integration using React, Next.js, TypeScript, Tailwind CSS, and React Query.',
     results: [
       { icon: 'fa-solid fa-circle-check', text: '31 UI Screens & 29 Features' },
       { icon: 'fa-solid fa-circle-check', text: 'Reusable Components & Responsive UI' }
@@ -42,12 +61,12 @@ const projects = [
     githubUrl: 'https://github.com/AfaaqWare/Level1-Round6-Team6.git'
   },
   {
-    num: '02',
+    num: '03',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/Mashrouak-landing-page.jpg',
+      img: 'assets/images/Mashrouak-landing-page.jpg',
       alt: 'Mashrouak'
     },
     tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript', 'jQuery', 'Owl Carousel'],
@@ -62,12 +81,12 @@ const projects = [
     githubUrl: 'https://github.com/Reham-Abdelaleem/Mashrouak-landing-page.git'
   },
   {
-    num: '03',
+    num: '04',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/L-Artisan-Crust.jpg',
+      img: 'assets/images/L-Artisan-Crust.jpg',
       alt: "L'Artisan Crust"
     },
     tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript', 'Owl Carousel'],
@@ -82,12 +101,12 @@ const projects = [
     githubUrl: 'https://github.com/Reham-Abdelaleem/L-Artisan-Crust.git'
   },
   {
-    num: '04',
+    num: '05',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/Magnetic-media-landing-page.jpg',
+      img: 'assets/images/Magnetic-media-landing-page.jpg',
       alt: 'Magnetic Media'
     },
     tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
@@ -102,12 +121,12 @@ const projects = [
     githubUrl: 'https://github.com/Reham-Abdelaleem/Magnetic-media-landing-page.git'
   },
   {
-    num: '05',
+    num: '06',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/Elevvo-task4-PersonalBlog.jpg',
+      img: 'assets/images/Elevvo-task4-PersonalBlog.jpg',
       alt: 'Personal Blog'
     },
     tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
@@ -122,12 +141,12 @@ const projects = [
     githubUrl: 'https://github.com/Reham-Abdelaleem/Elevvo-Task4-PersonalBlog'
   }, 
   {
-    num: '06',
+    num: '07',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/Elevvo-task3-TaskFlow.jpg',
+      img: 'assets/images/Elevvo-task3-TaskFlow.jpg',
       alt: 'TaskFlow'
     },
     tech: ['HTML5', 'CSS3', 'JavaScript'],
@@ -142,12 +161,12 @@ const projects = [
     githubUrl: 'https://github.com/Reham-Abdelaleem/Elevvo-Task3-TaskFlow'
   }, 
   {
-    num: '07',
+    num: '08',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/Elevvo-task2-Contact-Form.jpg',
+      img: 'assets/images/Elevvo-task2-Contact-Form.jpg',
       alt: 'Contact Form'
     },
     tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
@@ -162,12 +181,12 @@ const projects = [
     githubUrl: 'https://github.com/Reham-Abdelaleem/Elvevo-task2-Contact-Form'
   },     
   {
-    num: '08',
+    num: '09',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/Elevvo-task1-Collapsible-Sidebar.jpg',
+      img: 'assets/images/Elevvo-task1-Collapsible-Sidebar.jpg',
       alt: 'ShopZone'
     },
     tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
@@ -182,12 +201,12 @@ const projects = [
     githubUrl: 'https://github.com/Reham-Abdelaleem/Elvevo-task1-Collapsible-Sidebar'
   },
   {
-    num: '09',
+    num: '10',
     featured: false,
     visual: {
       type: 'image',
       bg: '#000',
-      img: 'images/Leon-Creative Digital Agency.jpg',
+      img: 'assets/images/Leon-Creative Digital Agency.jpg',
       alt: 'Leon Agency'
     },
     tech: ['HTML5', 'CSS3', 'Bootstrap 5'],
@@ -203,49 +222,261 @@ const projects = [
   }
 ];
 
-// ── RENDER PROJECTS ──
-function renderProjects() {
-  const carousel = document.getElementById('projectsCarousel');
-  carousel.innerHTML = projects.map(p => {
-    let visualInner = '';
-    if (p.visual.type === 'gradient') {
-      visualInner = `<div class="project-visual-bg d-flex align-items-center justify-content-center position-absolute"><div class="project-visual-icon">${p.visual.icon}</div></div>`;
-    } else {
-      visualInner = `<img src="${p.visual.img}" alt="${p.visual.alt}" class="w-100 h-100 object-fit-cover position-absolute overflow-hidden">`;
-    }
+// ── CERTIFICATES DATA ──
+// NOTE: "link" is null for entries where no real credential URL was provided.
+// Replace null with the actual certificate/post URL (LinkedIn post, Credly, PDF, etc.) when available.
+const certificates = [
+  {
+    icon: 'fa-solid fa-diagram-project',
+    name: 'Front-End Track',
+    org: 'Digitera · EraaSoft × iCareer',
+    meta: 'Sep 2026',
+    desc: 'PRDs and user stories, Jira, Figma MCP, Sanity CMS.',
+    link: 'https://drive.google.com/file/d/1Dv03ejyGErTF9vZmFZCIIaKpJE1nd0mM/view?usp=sharing'
+  },
+  {
+    icon: 'fa-solid fa-laptop-code',
+    name: 'Front-End Bootcamp',
+    org: 'Huma Volve',
+    meta: 'Aug 2026',
+    desc: 'React project structure, Figma to code, APIs & Postman, Lighthouse.',
+    link: 'https://drive.google.com/file/d/1ro5IcUZAHD3jE9VFv2yUK_vG8wue2JUs/view?usp=drive_link'
+  },
+  {
+    icon: 'fa-solid fa-code-branch',
+    name: 'Front-End Training — Level 2',
+    org: 'Afaaqware',
+    meta: 'Mar – Jul 2026',
+    desc: 'Team collaboration, Git Flow, clean architecture, API integration.',
+    link: 'https://drive.google.com/file/d/13JVEol1CrYliycyq_sTpQI0hvrCbyRjW/view?usp=drive_link'
+  },
+  {
+    icon: 'fa-solid fa-screwdriver-wrench',
+    name: 'Front-End Training — Fundamentals',
+    org: 'Afaaqware',
+    meta: 'Mar – Jul 2026',
+    desc: 'SurveyLand team project, dashboards, filtering and search.',
+    link: 'https://drive.google.com/file/d/13JVEol1CrYliycyq_sTpQI0hvrCbyRjW/view?usp=drive_link'
+  },
+  {
+    icon: 'fa-solid fa-display',
+    name: 'Frontend Development Internship',
+    org: 'Elevvo Pathways',
+    meta: 'Feb – Mar 2026',
+    desc: 'Responsive design with Bootstrap 5 and modular JavaScript.',
+    link: 'https://drive.google.com/file/d/1Z9uvJDl87gJ9KRXmCj0-MaGfzdl_J_EB/view?usp=drive_link'
+  },
+  {
+    icon: 'fa-solid fa-graduation-cap',
+    name: 'Digital Egypt Youth — Web Designer Track',
+    org: 'NTI & Creativa',
+    meta: 'Dec 2025 – Feb 2026 · 120 hours',
+    score: '94% Score',
+    desc: 'HTML/CSS/JS, Bootstrap, responsive layouts, freelancing.',
+    link: 'https://drive.google.com/file/d/1AKMvLYNsCcYRTzQYzVcoG4LGm6zqcY6p/view?usp=drive_link'
+  },
+  {
+    icon: 'fa-solid fa-database',
+    name: 'Database Fundamentals',
+    org: 'Mahara-Tech',
+    desc: 'ERD modeling, SQL, normalization.',
+    link: 'https://drive.google.com/file/d/1TfbMfHRkK0pZvCs6lm-QdN5NNZFi1c0F/view?usp=drive_link'
+  }
+];
 
-    const techBadges = p.tech.map(t => `<span class="tech-badge fw-medium">${t}</span>`).join('');
-    const overlayTags = p.tags.map(t => `<span class="overlay-tag fw-medium${t.accent ? ' accent' : ''}">${t.label}</span>`).join('');
-    const results = p.results.map(r => `<div class="overlay-result d-flex align-items-center gap-1 fw-medium"><i class="fas ${r.icon}"></i> ${r.text}</div>`).join('');
-
-    const actions = (p.liveUrl || p.githubUrl) ? `
-      <div class="overlay-actions d-flex flex-wrap gap-2">
-        ${p.liveUrl ? `<a href="${p.liveUrl}"   target="_blank" class="overlay-btn primary text-decoration-none fw-medium d-inline-flex align-items-center gap-1"><i class="fa-solid fa-link"></i> Live Demo</a>` : ''}
-        ${p.githubUrl ? `<a href="${p.githubUrl}" target="_blank" class="overlay-btn ghost text-decoration-none fw-medium d-inline-flex align-items-center gap-1"><i class="fa-brands fa-github"></i> GitHub</a>` : ''}
-      </div>` : '';
-
-    const featuredBadge = p.featured ? `<span class="project-featured-badge text-uppercase fw-semibold position-absolute z-2">${p.featuredBadge}</span>` : '';
-
+// ── RENDER CERTIFICATES ──
+function renderCertificates() {
+  const grid = document.getElementById('certificatesGrid');
+  if (!grid) return;
+  grid.innerHTML = certificates.map(c => {
+    const meta = c.meta ? `<div class="cert-meta">${c.meta}</div>` : '';
+    const score = c.score ? `<span class="grade-badge d-inline-block fw-semibold"><i class="fa-solid fa-star"></i> ${c.score}</span>` : '';
+    const link = c.link ? `<a href="${c.link}" target="_blank" rel="noopener noreferrer" class="cert-link text-decoration-none fw-medium"><i class="fa-solid fa-link"></i> View Certificate</a>` : '';
     return `
-      <div class="project-card position-relative overflow-hidden w-100${p.featured ? ' featured' : ''}">
-        ${featuredBadge}
-        <div class="project-visual position-absolute overflow-hidden d-flex align-items-center justify-content-center" style="background:${p.visual.bg};">
-          ${visualInner}
-          <div class="project-num fw-medium position-absolute">${p.num}</div>
-          <div class="project-tech-stack d-flex flex-wrap justify-content-end gap-1 position-absolute z-2">${techBadges}</div>
-        </div>
-        <div class="project-overlay position-absolute z-3 overflow-hidden d-flex flex-column justify-content-evenly opacity-0">
-          <div class="overlay-tags d-flex flex-wrap mb-2">${overlayTags}</div>
-          <div class="overlay-title mb-1">${p.title}</div>
-          <div class="overlay-desc overflow-hidden">${p.desc}</div>
-          <div class="overlay-results d-flex flex-wrap gap-2">${results}</div>
-          ${actions}
+      <div class="col-12 col-md-6 col-lg-4 reveal">
+        <div class="cert-card">
+          <div class="cert-head d-flex align-items-start gap-3">
+            <div class="cert-icon"><i class="${c.icon}"></i></div>
+            <div>
+              <div class="cert-name">${c.name}</div>
+              <div class="cert-org fw-medium">${c.org}</div>
+            </div>
+          </div>
+          ${meta}
+          <p class="cert-desc">${c.desc}</p>
+          <div class="cert-foot d-flex align-items-center justify-content-between gap-2 flex-wrap">${link}${score}</div>
         </div>
       </div>`;
   }).join('');
 }
 
+// ── SKILLS DATA ──
+const skillCategories = [
+  {
+    title: 'Web Development',
+    icon: 'fa-solid fa-code',
+    items: [
+      { name: 'HTML5', icon: 'fa-brands fa-html5' },
+      { name: 'CSS3', icon: 'fa-brands fa-css3-alt' },
+      { name: 'JavaScript (ES6+)', icon: 'fa-brands fa-square-js' },
+      { name: 'React.js', icon: 'fa-brands fa-react' },
+      { name: 'Next.js', icon: 'fa-solid fa-server' },
+      { name: 'TypeScript', icon: 'fa-solid fa-code' },
+      { name: 'Tailwind CSS', icon: 'fa-brands fa-tailwindcss' },
+      { name: 'Bootstrap', icon: 'fa-brands fa-bootstrap' },
+      { name: 'Responsive Web Design', icon: 'fa-solid fa-mobile-screen-button' }
+    ]
+  },
+  {
+    title: 'API Integration',
+    icon: 'fa-solid fa-plug',
+    items: [
+      { name: 'RESTful APIs', icon: 'fa-solid fa-cloud-arrow-up' },
+      { name: 'JSON', icon: 'fa-solid fa-file-code' },
+      { name: 'Axios', icon: 'fa-solid fa-arrow-right-arrow-left' },
+      { name: 'React Query', icon: 'fa-solid fa-arrows-rotate' }
+    ]
+  },
+  {
+    title: 'Architecture & Design',
+    icon: 'fa-solid fa-sitemap',
+    items: [
+      { name: 'Design Systems', icon: 'fa-solid fa-layer-group' },
+      { name: 'Atomic Design', icon: 'fa-solid fa-atom' },
+      { name: 'Component-Based Architecture', icon: 'fa-solid fa-cubes' },
+      { name: 'Feature-Based MVC', icon: 'fa-solid fa-diagram-project' }
+    ]
+  },
+  {
+    title: 'Version Control',
+    icon: 'fa-solid fa-code-branch',
+    items: [
+      { name: 'Git', icon: 'fa-brands fa-git-alt' },
+      { name: 'GitHub', icon: 'fa-brands fa-github' },
+      { name: 'Git Flow', icon: 'fa-solid fa-code-branch' }
+    ]
+  },
+  {
+    title: 'Tools',
+    icon: 'fa-solid fa-screwdriver-wrench',
+    items: [
+      { name: 'VS Code', icon: 'fa-solid fa-code' },
+      { name: 'Postman', icon: 'fa-solid fa-paper-plane' },
+      { name: 'Figma', icon: 'fa-brands fa-figma' },
+      { name: 'GitHub Desktop', icon: 'fa-brands fa-github' },
+      { name: 'ClickUp', icon: 'fa-solid fa-list-check' },
+      { name: 'Jira', icon: 'fa-brands fa-jira' }    
+    ]
+  },
+  {
+    title: 'Database',
+    icon: 'fa-solid fa-database',
+    items: [
+      { name: 'SQL', icon: 'fa-solid fa-database' },
+      { name: 'Database Design', icon: 'fa-solid fa-layer-group' },
+      { name: 'ERD Modeling', icon: 'fa-solid fa-diagram-project' },
+      { name: 'Normalization', icon: 'fa-solid fa-filter' }
+    ]
+  },
+  {
+    title: 'Computer Science',
+    icon: 'fa-solid fa-brain',
+    items: [
+      { name: 'C++', icon: 'fa-solid fa-code' },
+      { name: 'Data Structures', icon: 'fa-solid fa-diagram-project' },
+      { name: 'Algorithms', icon: 'fa-solid fa-sitemap' }
+    ]
+  }
+];
+
+// ── RENDER SKILLS ──
+function renderSkills() {
+  const grid = document.getElementById('skillsGrid');
+  if (!grid) return;
+  grid.innerHTML = skillCategories.map((cat, i) => {
+    const pills = cat.items.map(s => `<span class="skill-pill d-inline-flex align-items-center gap-2 fw-medium m-1"><i class="${s.icon}"></i> ${s.name}</span>`).join('');
+    return `
+      <div class="${i < skillCategories.length - 1 ? 'mb-3' : ''}">
+        <div class="skill-cat-title d-flex align-items-center gap-2 fw-medium text-uppercase">
+          <i class="${cat.icon}"></i> ${cat.title}
+        </div>
+        <div>${pills}</div>
+      </div>`;
+  }).join('');
+}
+
+// ── RENDER PROJECTS ──
+function buildProjectCardHTML(p) {
+  let visualInner = '';
+  if (p.visual.type === 'gradient') {
+    visualInner = `<div class="project-visual-bg d-flex align-items-center justify-content-center position-absolute"><div class="project-visual-icon"><i class="${p.visual.icon}"></i></div></div>`;
+  } else {
+    visualInner = `<img src="${p.visual.img}" alt="${p.visual.alt}" class="w-100 h-100 object-fit-cover position-absolute overflow-hidden">`;
+  }
+
+  const techBadges = p.tech.map(t => `<span class="tech-badge fw-medium">${t}</span>`).join('');
+  const overlayTags = p.tags.map(t => `<span class="overlay-tag fw-medium${t.accent ? ' accent' : ''}">${t.label}</span>`).join('');
+  const results = p.results.map(r => `<div class="overlay-result d-flex align-items-center gap-1 fw-medium"><i class="fas ${r.icon}"></i> ${r.text}</div>`).join('');
+
+  const actions = (p.liveUrl || p.githubUrl) ? `
+    <div class="overlay-actions d-flex flex-wrap gap-2">
+      ${p.liveUrl ? `<a href="${p.liveUrl}"   target="_blank" class="overlay-btn primary text-decoration-none fw-medium d-inline-flex align-items-center gap-1"><i class="fa-solid fa-link"></i> Live Demo</a>` : ''}
+      ${p.githubUrl ? `<a href="${p.githubUrl}" target="_blank" class="overlay-btn ghost text-decoration-none fw-medium d-inline-flex align-items-center gap-1"><i class="fa-brands fa-github"></i> GitHub</a>` : ''}
+    </div>` : '';
+
+  const featuredBadge = p.featured ? `<span class="project-featured-badge text-uppercase fw-semibold position-absolute z-2">${p.featuredBadge}</span>` : '';
+
+  return `
+    <div class="project-card position-relative overflow-hidden w-100${p.featured ? ' featured' : ''}">
+      ${featuredBadge}
+      <div class="project-visual position-absolute overflow-hidden d-flex align-items-center justify-content-center" style="background:${p.visual.bg};">
+        ${visualInner}
+        <div class="project-num fw-medium position-absolute">${p.num}</div>
+        <div class="project-tech-stack d-flex flex-wrap justify-content-end gap-1 position-absolute z-2">${techBadges}</div>
+      </div>
+      <div class="project-overlay position-absolute z-3 overflow-hidden d-flex flex-column justify-content-evenly opacity-0">
+        <div class="overlay-tags d-flex flex-wrap mb-2">${overlayTags}</div>
+        <div class="overlay-title mb-1">${p.title}</div>
+        <div class="overlay-desc overflow-hidden">${p.desc}</div>
+        <div class="overlay-results d-flex flex-wrap gap-2">${results}</div>
+        ${actions}
+      </div>
+    </div>`;
+}
+
+function renderProjects() {
+  const carousel = document.getElementById('projectsCarousel');
+  carousel.innerHTML = projects.map(buildProjectCardHTML).join('');
+}
+
+function renderProjectsGrid() {
+  const grid = document.getElementById('projectsGrid');
+  if (!grid) return;
+  grid.innerHTML = projects.map(p => `<div class="col-md-6 col-lg-4">${buildProjectCardHTML(p)}</div>`).join('');
+}
+
 renderProjects();
+renderProjectsGrid();
+renderCertificates();
+renderSkills();
+
+// ── PROJECTS: TOGGLE CAROUSEL / FULL GRID ──
+(function initProjectsToggle() {
+  const btn = document.getElementById('toggleProjectsView');
+  const carouselWrap = document.querySelector('.projects-carousel');
+  const gridWrap = document.getElementById('projectsGridWrap');
+  if (!btn || !carouselWrap || !gridWrap) return;
+
+  let showingGrid = false;
+  btn.addEventListener('click', () => {
+    showingGrid = !showingGrid;
+    carouselWrap.style.display = showingGrid ? 'none' : '';
+    gridWrap.style.display = showingGrid ? '' : 'none';
+    btn.innerHTML = showingGrid
+      ? '<i class="fa-solid fa-arrows-left-right"></i> Carousel View'
+      : '<i class="fa-solid fa-table-cells-large"></i> View All as Grid';
+  });
+})();
 
 // ── PURE JS CAROUSEL (with Drag) ──
 (function initCarousel() {
@@ -384,37 +615,6 @@ const revealObs = new IntersectionObserver(entries => {
   });
 }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
 document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
-
-// ── CUSTOM CURSOR ──
-const cursor = document.getElementById('cursor');
-const ring = document.getElementById('cursorRing');
-let mx = 0, my = 0, rx = 0, ry = 0;
-
-if (window.matchMedia('(pointer: fine)').matches) {
-  document.body.style.cursor = 'none';
-  cursor.style.display = 'block';
-  ring.style.display = 'block';
-
-  document.addEventListener('mousemove', e => {
-    mx = e.clientX; my = e.clientY;
-    cursor.style.left = mx + 'px';
-    cursor.style.top = my + 'px';
-  });
-
-  (function animRing() {
-    rx += (mx - rx) * .12;
-    ry += (my - ry) * .12;
-    ring.style.left = rx + 'px';
-    ring.style.top = ry + 'px';
-    requestAnimationFrame(animRing);
-  })();
-
-  document.querySelectorAll('a,button,input,textarea,.skill-pill,.service-card,.project-card,.why-card').forEach(el => {
-    el.style.cursor = 'none';
-    el.addEventListener('mouseenter', () => { cursor.style.transform = 'translate(-50%,-50%) scale(2)'; ring.style.opacity = '0'; });
-    el.addEventListener('mouseleave', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1)'; ring.style.opacity = '.6'; });
-  });
-}
 
 // ── HAMBURGER ──
 document.getElementById('hamburger').addEventListener('click', () => {
